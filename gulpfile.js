@@ -8,11 +8,11 @@ var watch = require('gulp-watch');
 
 gulp.task('default', function() {
     gulp.task('scss', function() {
-        return sass('src/scss/')
+        return sass('src/styles/')
             .on('error', function (err) {
                 console.error('Error!', err.message);
             })
-            .pipe(gulp.dest('dist/css'));
+            .pipe(gulp.dest('dist/styles'));
     });
     gulp.task('haml', function() {
         gulp.src('./src/**/*.haml')
@@ -23,6 +23,6 @@ gulp.task('default', function() {
     gulp.task('default', function() {
         gulp.run('haml', 'scss');
         gulp.watch('./src/**/*.haml', ['haml']);
-        gulp.watch('./src/scss/*.scss', ['scss']);
+        gulp.watch('./src/styles/*.scss', ['scss']);
     });
 });
