@@ -1,0 +1,28 @@
+{
+  "name": "Found_Niya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-haml": "^0.1.4",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "gulp-watch": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:np6176a/Found_Niya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/np6176a/Found_Niya/issues"
+  },
+  "homepage": "https://github.com/np6176a/Found_Niya"
+}
