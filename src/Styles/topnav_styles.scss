@@ -1,18 +1,6 @@
 //connecting to styles
 @import "styles";
 
-//logo
-.brand {
-  img{
-    width: 20vw;
-    margin: 2% 0 2% 39%;
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
-    -moz-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
-    box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
-    border: 1px solid #3d3642;
-  }
-}
-
 //the main nav
 .nav {
   text-align: center;
@@ -28,6 +16,17 @@
       &:hover {
         color: #82706f;
         background-color: #FFF;
+      }
+      //logo
+      .brand {
+          width: 20vw;
+          -webkit-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
+          -moz-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
+          box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
+          border: 1px solid #3d3642;
+      }
+      img {
+        width: 100px;
       }
     }
   }

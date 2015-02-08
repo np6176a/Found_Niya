@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
+.home {
+  text-align: center; }
+  .home h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 8vw; }
+  .home h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 4vw; }
+  .home h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2vw; }

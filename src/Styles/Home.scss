@@ -1,2 +1,7 @@
 //connecting to styles
 @import "styles";
+
+.home {
+  @include title-txt;
+  text-align: center;
+}

@@ -1,12 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Cabin+Sketch:700);
-.brand img {
-  width: 20vw;
-  margin: 2% 0 2% 39%;
-  -webkit-box-shadow: 2px 2px 2px 0px #3d3642;
-  -moz-box-shadow: 2px 2px 2px 0px #3d3642;
-  box-shadow: 2px 2px 2px 0px #3d3642;
-  border: 1px solid #3d3642; }
-
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 .nav {
   text-align: center; }
   .nav li {
@@ -15,11 +7,20 @@
     margin: 0 2%;
     display: inline-block; }
     .nav li a {
-      font-family: 'Cabin Sketch', cursive;
+      font-family: 'Lato', sans-serif;
       font-size: 2.5vw;
       font-style: normal;
+      font-weight: 300;
       text-decoration: none;
       color: #4d494d; }
       .nav li a:hover {
         color: #82706f;
         background-color: #FFF; }
+      .nav li a .brand {
+        width: 20vw;
+        -webkit-box-shadow: 2px 2px 2px 0px #3d3642;
+        -moz-box-shadow: 2px 2px 2px 0px #3d3642;
+        box-shadow: 2px 2px 2px 0px #3d3642;
+        border: 1px solid #3d3642; }
+      .nav li a img {
+        width: 100px; }
