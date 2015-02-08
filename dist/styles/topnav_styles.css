@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 .top-nav {
   background: url("../images/geometry2.png");
-  width: 100vw; }
+  width: 100vw;
+  text-align: center; }
   .top-nav li {
     list-style-type: none;
     padding: 0;
@@ -11,8 +12,8 @@
       font-family: 'Lato', sans-serif;
       font-size: 2vw;
       font-style: normal;
-      font-weight: 300;
-      font-color: #4d494d; }
+      font-weight: 700;
+      color: #4d494d; }
       .top-nav li a:hover {
         color: #8f4f56;
         background: none; }
@@ -22,10 +23,8 @@
     -moz-box-shadow: 2px 2px 2px 0px #3d3642;
     box-shadow: 2px 2px 2px 0px #3d3642;
     border: 1px solid #3d3642;
-    margin: 2% 0 2% 45%; }
-  .top-nav .nav {
-    text-align: center; }
-    .top-nav .nav li a img {
-      width: 5vw;
-      display: block;
-      margin: 0 auto; }
+    margin: 2% 0; }
+  .top-nav .nav li a img {
+    width: 5vw;
+    display: block;
+    margin: 0 auto; }

@@ -1,7 +1,7 @@
 //google fonts
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 
-//font settings throughout the site
+//font settings for titles
 @mixin title-txt {
   h1 {
     font: {
@@ -27,11 +27,11 @@
   }
 }
 
-
-//the nav background
+//the nav
 @mixin main-nav{
   background: url("../images/geometry2.png");
   width: 100vw;
+  text-align: center;
   li {
     list-style-type: none;
     padding: 0;
@@ -42,9 +42,9 @@
         family: 'Lato', sans-serif;
         size: 2vw;
         style: normal;
-        weight: 300;
-        color: #4d494d;
+        weight: 700;
       }
+      color: #4d494d;
       &:hover {
         color: #8f4f56;
         background: none;
