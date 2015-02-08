@@ -3,7 +3,12 @@
 
 //font settings throughout the site
 @mixin title-txt {
-
+  h3 {
+    font: {
+      family: "Lato", sans-serif;
+      weight: 700;
+    }
+  }
 }
 
 @mixin subtitle-txt {
@@ -12,4 +17,8 @@
     size: 2.5vw;
     style: normal;
   }
+}
+
+@mixin body-txt {
+
 }

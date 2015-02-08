@@ -2,14 +2,16 @@
   %head
     %title Found Niya
     %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" )
+    %link(rel="stylesheet" href="styles/home.css" )
     %link(rel="stylesheet" href="styles/topnav_styles.css" )
   %body
+    -#the nav and logo
     .container
       .row
-        .col-md-12.brand
+        .col-xs-12.brand
           %img(src="images/header.png" )
       .row
-        .col-md-12.topnav
+        .col-xs-12.topnav
           %ul.nav
             %li(role="presentation").active
               %a(href="#")Work
@@ -20,6 +22,13 @@
             %li(role="presentation")
               %a(href="#")Contact
 
+    -#the main body
+    .container
+      .row
+        .col-xs-12.home
+          %h2 Hi
+          %h1 My Name Is Niya
+          %h3 "Of course I talk to myself, because sometimes I need expert advice."
 
 
     -#todo hello
