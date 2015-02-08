@@ -1,4 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
+.brand {
+  background: url("../images/geometry2.png"); }
+  .brand img {
+    width: 20vw;
+    -webkit-box-shadow: 2px 2px 2px 0px #3d3642;
+    -moz-box-shadow: 2px 2px 2px 0px #3d3642;
+    box-shadow: 2px 2px 2px 0px #3d3642;
+    border: 1px solid #3d3642;
+    margin-left: 36%;
+    margin-bottom: 3%; }
+
 .nav {
   text-align: center; }
   .nav li {
@@ -16,11 +27,7 @@
       .nav li a:hover {
         color: #82706f;
         background-color: #FFF; }
-      .nav li a .brand {
-        width: 20vw;
-        -webkit-box-shadow: 2px 2px 2px 0px #3d3642;
-        -moz-box-shadow: 2px 2px 2px 0px #3d3642;
-        box-shadow: 2px 2px 2px 0px #3d3642;
-        border: 1px solid #3d3642; }
       .nav li a img {
-        width: 100px; }
+        width: 5vw;
+        display: block;
+        margin: 0 auto; }
