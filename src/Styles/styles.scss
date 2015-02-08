@@ -27,25 +27,33 @@
   }
 }
 
-@mixin nav-txt {
-  font: {
-    family: 'Lato', sans-serif;
-    size: 2vw;
-    style: normal;
-    weight: 300;
-  }
-}
-
-@mixin body-txt {
-
-}
 
 //the nav background
 @mixin main-nav{
   background: url("../images/geometry2.png");
   width: 100vw;
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 2%;
+    display: inline-block;
+    a {
+      font: {
+        family: 'Lato', sans-serif;
+        size: 2vw;
+        style: normal;
+        weight: 300;
+        color: #4d494d;
+      }
+      &:hover {
+        color: #8f4f56;
+        background: none;
+      }
+    }
+  }
 }
 
 @mixin main-content{
   background: url("../images/main-content.jpg");
+  width: 100vw;
 }

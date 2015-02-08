@@ -2,6 +2,14 @@
 @import "styles";
 
 .home {
+  @include main-content;
   @include title-txt;
   text-align: center;
+  color: #ebe6e4;
+  h2 {
+    padding-top: 5%;
+  }
+  h3 {
+    padding: 3% 0 5% 0;
+  }
 }

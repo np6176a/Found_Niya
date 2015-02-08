@@ -3,7 +3,4 @@
 
 .foot-nav {
   @include main-nav;
-  a {
-    @include nav-txt;
-  }
 }

@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 .home {
-  text-align: center; }
+  background: url("../images/main-content.jpg");
+  width: 100vw;
+  text-align: center;
+  color: #ebe6e4; }
   .home h1 {
     font-family: 'Cabin Sketch', cursive;
     font-size: 8vw; }
@@ -13,3 +16,7 @@
     font-weight: 400;
     font-style: italic;
     font-size: 2vw; }
+  .home h2 {
+    padding-top: 5%; }
+  .home h3 {
+    padding: 3% 0 5% 0; }
