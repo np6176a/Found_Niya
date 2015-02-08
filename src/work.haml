@@ -36,13 +36,24 @@
     .container.home
       .row
         .col-xs-12
-          %ul.nav nav-tabs
+          %ul.nav.nav-tabs#myTab(role="tablist")
             %li.active(role="presentation")
-              %a(href="#" )Web Design
-            %li(role="presentation")
-              %a(href="#" )Graphic Design
-            %li(role="presentation")
-              %a(href="#" )Photo Editing
+              %a(href="#web" aria-controls="home" role="tab" data-toggle="tab" )Web Design
+            %li(role="presentation" )
+              %a(href="#graphics" aria-controls="profile" role="tab" data-toggle="tab") Graphic Design
+            %li(role="presentation" )
+              %a(href="#phot" aria-controls="messages" role="tab" data-toggle="tab") Photo Editing
+
+          %div.tab-content
+            %div.tab-pane.active#home(role="tabpanel)
+            %div.tab-pane.active#profile(role="tabpanel)
+            %div.tab-pane.active#messages(role="tabpanel)
+
+          %script
+            $(function () {
+              $('#myTab a:last').tab('show')
+            })
+
           %table(align="center" )
             %thead
             %tbody
