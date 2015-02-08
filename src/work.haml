@@ -2,7 +2,7 @@
   %head
     %title Found Niya
     %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" )
-    %link(rel="stylesheet" href="styles/home.css" )
+    %link(rel="stylesheet" href="styles/page_content.css" )
     %link(rel="stylesheet" href="styles/topnav_styles.css" )
     %link(rel="stylesheet" href="styles/footnav_styles.css" )
   %body
@@ -36,9 +36,21 @@
     .container.home
       .row
         .col-xs-12
-          %h2 Hi
-          %h1 My Name Is Niya
-          %h3 "Of course I talk to myself, because sometimes I need expert advice."
+          
+          %table(align="center" )
+            %thead
+            %tbody
+              %tr
+                %td
+                  %a(href="#" )
+                    %img(src="images/juliebees/winterwakeup.jpg" )
+                %td
+                  %h2 Julie Bee's
+                  %p Build Website.
+              %tr
+                %td
+                  %h2 Zebrablinds
+                  %p Build Website.
 
     -#the footer
     .container.foot-nav

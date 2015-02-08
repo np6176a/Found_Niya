@@ -5,11 +5,17 @@
   @include main-content;
   @include title-txt;
   text-align: center;
-  color: #ebe6e4;
   h2 {
     padding-top: 5%;
   }
   h3 {
     padding: 3% 0 5% 0;
   }
+}
+//end of home page
+
+//work page
+//tabe
+tbody {
+  @include work-table;
 }

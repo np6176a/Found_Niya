@@ -3,6 +3,7 @@
 
 //font settings for titles
 @mixin title-txt {
+  color: #ebe6e4;
   h1 {
     font: {
       family: 'Cabin Sketch', cursive;
@@ -56,4 +57,20 @@
 @mixin main-content{
   background: url("../images/main-content.jpg");
   width: 100vw;
+}
+
+@mixin work-table{
+  td {
+//    the type settings
+    @include title-txt;
+    text-align: center;
+    h2 {
+    }
+//    the image and general settings
+    padding: 3%;
+    width: 40vw;
+    img {
+      width: 100%;
+    }
+  }
 }
