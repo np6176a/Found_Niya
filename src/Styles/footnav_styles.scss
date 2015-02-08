@@ -1,0 +1,9 @@
+//connecting to styles
+@import "styles";
+
+.foot-nav {
+  @include main-nav;
+  a {
+    @include nav-txt;
+  }
+}

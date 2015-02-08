@@ -1,41 +1,44 @@
 //connecting to styles
 @import "styles";
 
-//logo
-.brand {
-  background: url("../images/geometry2.png");
-  img {
-    width: 20vw;
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
-    -moz-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
-    box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
-    border: 1px solid #3d3642;
-    margin-left: 36%;
-    margin-bottom: 3%;
+.top-nav {
+  @include main-nav;
+  //logo
+  .brand {
+    img {
+      width: 9vw;
+      -webkit-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
+      -moz-box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
+      box-shadow: 2px 2px 2px 0px rgba(61,54,66,1);
+      border: 1px solid #3d3642;
+      margin: 2% 0 2% 45%;
+    }
   }
-}
 
-//the main nav
-.nav {
-  text-align: center;
-  li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 2%;
-    display: inline-block;
-    a {
-      @include subtitle-txt;
-      text-decoration: none;
-      color: #4d494d;
-      &:hover {
-        color: #82706f;
-        background-color: #FFF;
-      }
-      img {
-        width: 5vw;
-        display: block;
-        margin: 0 auto;
+  //the main nav
+  .nav {
+    text-align: center;
+    li {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 2%;
+      display: inline-block;
+      a {
+        @include nav-txt;
+        text-decoration: none;
+        color: #4d494d;
+        &:hover {
+          color: #8f4f56;
+          background: none;
+        }
+        img {
+          width: 5vw;
+          display: block;
+          margin: 0 auto;
+        }
       }
     }
   }
 }
+
+
