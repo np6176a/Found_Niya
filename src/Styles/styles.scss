@@ -1,0 +1,15 @@
+//google fonts
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Cabin+Sketch:700);
+
+//font settings throughout the site
+@mixin title-txt {
+
+}
+
+@mixin subtitle-txt {
+  font: {
+    family: 'Cabin Sketch', cursive;
+    size: 2.5vw;
+    style: normal;
+  }
+}

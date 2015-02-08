@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Cabin+Sketch:700);
+.brand img {
+  width: 20vw;
+  margin: 2% 0 2% 39%; }
+
+.nav {
+  text-align: center; }
+  .nav li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; }
+  .nav a {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2.5em;
+    font-style: normal; }

@@ -1,0 +1,23 @@
+//connecting to styles
+@import "styles";
+
+//logo
+.brand {
+  img{
+    width: 20vw;
+    margin: 2% 0 2% 39%;
+  }
+}
+
+.nav {
+  text-align: center;
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+    a {
+       @include subtitle-txt;
+    }
+}
