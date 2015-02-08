@@ -44,12 +44,10 @@
             %li(role="presentation" )
               %a(href="#phot" aria-controls="messages" role="tab" data-toggle="tab") Photo Editing
 
-          %div.tab-content
-            %div.tab-pane.active#home(role="tabpanel)
-            %div.tab-pane.active#profile(role="tabpanel)
-            %div.tab-pane.active#messages(role="tabpanel)
-
-
+          .tab-content
+            .tab-pane.active#home(role="tabpanel")
+            .tab-pane.active#profile(role="tabpanel")
+            .tab-pane.active#messages(role="tabpanel")
           %table(align="center" )
             %thead
             %tbody
@@ -88,3 +86,5 @@
 
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+    :javascript
+      console.log("I'm working");
