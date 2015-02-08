@@ -49,10 +49,11 @@
             %div.tab-pane.active#profile(role="tabpanel)
             %div.tab-pane.active#messages(role="tabpanel)
 
-          %script
-            $(function () {
-              $('#myTab a:last').tab('show')
-            })
+          -#%script{:type=>"text/javascript"}
+          -#:javascript
+          -#    $(function () {
+          -#      $('#myTab a:last').tab('show')
+          -#    })
 
           %table(align="center" )
             %thead
