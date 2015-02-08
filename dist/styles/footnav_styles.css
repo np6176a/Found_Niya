@@ -17,3 +17,7 @@
       .foot-nav li a:hover {
         color: #8f4f56;
         background: none; }
+  .foot-nav li img {
+    width: 6vw;
+    border: 4px solid #3d3642;
+    padding: 10%; }
