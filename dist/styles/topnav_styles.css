@@ -23,8 +23,18 @@
     -moz-box-shadow: 0px 0px 8px 0px #3d3642;
     box-shadow: 0px 0px 8px 0px #3d3642;
     border: 2px solid #3d3642;
-    margin: 2% 0; }
-  .top-nav .nav li a img {
+    margin: 2% 0 0 0; }
+  .top-nav .nav li a .icon {
+    width: 5vw;
+    display: block;
+    margin: 0 auto;
+    position: absolute; }
+  .top-nav .nav li a .icon1 {
+    visibility: hidden;
     width: 5vw;
     display: block;
     margin: 0 auto; }
+  .top-nav .nav li a:hover .icon {
+    visibility: hidden; }
+  .top-nav .nav li a:hover .icon1 {
+    visibility: visible; }
