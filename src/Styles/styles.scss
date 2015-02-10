@@ -106,5 +106,21 @@
   }
   #title {
     text-align: center;
+    width: 70vw;
+    padding: 1%;
+    .graphics {
+      width: 25%;
+      height: 25vw;
+      padding:0 1%;
+    }
+    .graphics1 {
+      width: 50%;
+      padding:0 1%;
+    }
+    .photo1 {
+      width: 30%;
+      padding:0 1%;
+      max-height: 20vw;
+    }
   }
 }

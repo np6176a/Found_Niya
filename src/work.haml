@@ -31,12 +31,13 @@
                 %img.icon1(src="images/book1.svg" )
                 %span Blog
             %li(role="presentation")
-              %a(href="#")
+              %a(href="contact.html")
                 %img.icon(src="images/phone.svg" )
                 %img.icon1(src="images/phone1.svg" )
                 %span Contact
 
     -#the main body
+    -#the tab nav
     .container.home
       .row
         .col-xs-12
@@ -51,6 +52,7 @@
               %a(href="#photo" role="tab" data-toggle="tab")
                 %h3 Photo Editing
 
+          -#the first panel
           .tab-content
             .tab-pane.active#web(role="tabpanel")
               %table(align="center" )
@@ -86,7 +88,9 @@
                         %br
                         Web & Graphic Designer
                         %p JD Graphics is a print shop that designed, printed and installed large scale graphics for vehicles and buildings. I worked as an Administrative Assistant managing the print shop, as a Graphic Designer creating designs for clients, and as the resident Web Designer building and maintaining the shop website.
-            .tab-pane.active#graphics(role="tabpanel")
+
+            -#the second panel
+            .tab-pane#graphics(role="tabpanel")
               %table(align="center" )
                 %thead
                 %tbody
@@ -94,11 +98,57 @@
                     %td.desc#title
                       %a(href="https://www.myjuliebees.com/" )
                         %h2 Julie Bee's
-                        %p Banners, Event Invites, and Newsletters
+                      %p Banners, Event Invites and Newsletters
                   %tr
-                    %td
+                    %td#title
+                      %img.graphics(src="images/juliebees/Valentine.gif" )
+                      %img.graphics(src="images/juliebees/invite-4.jpg" )
+                      %img.graphics(src="images/juliebees/invite 3.jpg" )
+                  %tr
+                    %td.desc#title
+                      %a(href="http://www.zebrablinds.com/" )
+                        %h2 Zebrablinds
+                      %p Logo, Banners and Flyers
+                  %tr
+                    %td#title
+                      %img.graphics(src="images/zebra/Flyers1.jpg" )
+                      %img.graphics(src="images/zebra/Flyers2.jpg" )
+                  %tr
+                    %td#title
+                      %img.graphics1(src="images/zebra/Cordlessca.jpg" )
 
-            .tab-pane.active#photo(role="tabpanel")
+             -#the third panel
+            .tab-pane#photo(role="tabpanel")
+              %table(align="center" )
+                %thead
+                %tbody
+                  %tr
+                    %td.desc#title
+                      %a(href="https://www.myjuliebees.com/" )
+                        %h2 Julie Bee's
+                      %p Before & After Photo Edits
+                  %tr
+                    %td#title
+                      %img.photo1(src="images/juliebees/IMG_4389.jpg" )
+                      %img.photo1(src="images/juliebees/valentine.jpg" )
+                  %tr
+                    %td#title
+                      %img.photo1(src="images/juliebees/imageori.jpg" )
+                      %img.photo1(src="images/juliebees/image.jpg" )
+                  %tr
+                    %td.desc#title
+                      %a(href="https://www.myjuliebees.com/" )
+                        %h2 JD Graphics
+                      %p Before & After Photo Edits
+                  %tr
+                    %td#title
+                      %img.photo1(src="images/JD/IMG_0001.jpg" )
+                      %img.photo1(src="images/JD/IMG_0001E.jpg" )
+                  %tr
+                    %td#title
+                      %img.photo1(src="images/JD/IMG_0001-(1)-2.jpg" )
+                      %img.photo1(src="images/JD/IMG_0001-(1)-2E.jpg" )
+
 
     -#the footer
     .container.foot-nav
