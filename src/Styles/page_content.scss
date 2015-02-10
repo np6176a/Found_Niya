@@ -39,3 +39,16 @@
 tbody {
   @include work-table;
 }
+//end of work page
+
+//contact page
+.contact1 {
+  @include body-txt;
+  @include title-txt;
+  h2 {
+    font: {
+      size: 1.7vw!important;
+    }
+  }
+
+}

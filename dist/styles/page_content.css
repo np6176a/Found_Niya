@@ -100,3 +100,23 @@ tbody #title {
     width: 30%;
     padding: 0 1%;
     max-height: 20vw; }
+
+.contact1 {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: #ebe6e4; }
+  .contact1 h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 8vw; }
+  .contact1 h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 4vw; }
+  .contact1 h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw; }
+  .contact1 h2 {
+    font-size: 1.7vw !important; }
