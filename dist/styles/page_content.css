@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 .home {
   background: url("../images/main-content.jpg");
   width: 100vw;
@@ -50,7 +50,10 @@
 
 tbody td {
   color: #ebe6e4;
-  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-align: justify;
   padding: 3%;
   width: 40vw; }
   tbody td h1 {
@@ -65,5 +68,22 @@ tbody td {
     font-weight: 400;
     font-style: normal;
     font-size: 2vw; }
+  tbody td a {
+    color: #ebe6e4; }
+    tbody td a h2 {
+      padding: 0 !important;
+      font-size: 3vw !important;
+      margin-bottom: 3%; }
+    tbody td a:hover {
+      text-decoration: none;
+      color: #8f4f56; }
+  tbody td .role {
+    font-weight: 400 !important;
+    font-style: italic; }
   tbody td img {
+    text-align: center;
     width: 100%; }
+tbody .desc {
+  background-color: rgba(83, 76, 77, 0.4); }
+tbody #title {
+  text-align: center; }

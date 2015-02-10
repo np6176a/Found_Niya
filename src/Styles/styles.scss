@@ -1,5 +1,5 @@
 //google fonts
-@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 
 //font settings for titles
 @mixin title-txt {
@@ -25,6 +25,13 @@
       style: normal;
       size: 2vw;
     }
+  }
+}
+@mixin body-txt{
+  font: {
+    family: 'PT Serif', serif;
+    style: normal;
+    size: 1.5vw;
   }
 }
 
@@ -63,14 +70,41 @@
   td {
 //    the type settings
     @include title-txt;
-    text-align: center;
-    h2 {
+    @include body-txt;
+    text-align: justify;
+    a {
+      color: #ebe6e4;
+      h2 {
+        padding: 0!important;
+        font: {
+          size: 3vw!important;
+        }
+        margin-bottom: 3%;
+      }
+      &:hover {
+        text-decoration: none;
+        color:#8f4f56;
+      }
     }
+    .role {
+      font: {
+        weight: 400!important;
+        style: italic;
+      }
+    }
+
 //    the image and general settings
     padding: 3%;
     width: 40vw;
     img {
+      text-align: center;
       width: 100%;
     }
+  }
+  .desc {
+    background-color: rgba(83,76,77,0.4);
+  }
+  #title {
+    text-align: center;
   }
 }
