@@ -16,20 +16,24 @@
         .col-xs-12.topnav
           %ul.nav
             %li(role="presentation")
-              %a(href="#")
-                %img(src="images/header.png" )
+              %a(href="work.html")
+                %img.icon#coffee(src="images/coffee.svg" )
+                %img.icon1#coffee(src="images/coffee2.svg" )
                 %span Work
             %li(role="presentation")
               %a(href="about.html")
-                %img(src="images/header.png" )
+                %img.icon(src="images/glasses.svg" )
+                %img.icon1(src="images/glasses1.svg" )
                 %span About
             %li(role="presentation")
               %a(href="#")
-                %img(src="images/header.png" )
+                %img.icon(src="images/book.svg" )
+                %img.icon1(src="images/book1.svg" )
                 %span Blog
             %li(role="presentation")
-              %a(href="contact.html")
-                %img(src="images/header.png" )
+              %a(href="#")
+                %img.icon(src="images/phone.svg" )
+                %img.icon1(src="images/phone1.svg" )
                 %span Contact
 
     -#the main body
@@ -38,30 +42,43 @@
         .col-xs-12
           %ul.nav.nav-tabs#myTab(role="tablist")
             %li.active(role="presentation")
-              %a(href="#web" aria-controls="home" role="tab" data-toggle="tab" )Web Design
+              %a(href="#web" role="tab" data-toggle="tab" )
+                %h3 Web Design
             %li(role="presentation" )
-              %a(href="#graphics" aria-controls="profile" role="tab" data-toggle="tab") Graphic Design
+              %a(href="#graphics" role="tab" data-toggle="tab")
+                %h3 Graphic Design
             %li(role="presentation" )
-              %a(href="#phot" aria-controls="messages" role="tab" data-toggle="tab") Photo Editing
+              %a(href="#photo" role="tab" data-toggle="tab")
+                %h3 Photo Editing
 
           .tab-content
-            .tab-pane.active#home(role="tabpanel")
-            .tab-pane.active#profile(role="tabpanel")
-            .tab-pane.active#messages(role="tabpanel")
-          %table(align="center" )
-            %thead
-            %tbody
-              %tr
-                %td
-                  %a(href="#" )
-                    %img(src="images/juliebees/winterwakeup.jpg" )
-                %td
-                  %h2 Julie Bee's
-                  %p Build Website.
-              %tr
-                %td
-                  %h2 Zebrablinds
-                  %p Build Website.
+            .tab-pane.active#web(role="tabpanel")
+              %table(align="center" )
+                %thead
+                %tbody
+                  %tr
+                    %td
+                      %a(href="#" )
+                        %img(src="images/juliebees/winterwakeup.jpg" )
+                    %td
+                      %h2 Julie Bee's
+                      %p Role: Web and Graphic Designer
+                  %tr
+                    %td
+                      %h2 Zebrablinds
+                      %p Build Website.
+                    %td
+                      %a(href="#" )
+                        %img(src="images/zebra/Cordlesscom.jpg" )
+                  %tr
+                    %td
+                      %a(href="#" )
+                        %img(src="images/JD/jdlavender.jpg" )
+                    %td
+                      %h2 JD Graphics
+                      %p Print
+            .tab-pane.active#graphics(role="tabpanel")
+            .tab-pane.active#photo(role="tabpanel")
 
     -#the footer
     .container.foot-nav
@@ -87,4 +104,7 @@
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
     :javascript
-      console.log("I'm working");
+      $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })

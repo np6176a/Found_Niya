@@ -14,12 +14,39 @@
   .home h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     font-size: 2vw; }
   .home h2 {
     padding-top: 5%; }
   .home h3 {
-    padding: 3% 0 5% 0; }
+    padding: 3% 0 5% 0;
+    font-style: italic; }
+
+.nav-tabs {
+  border: none;
+  text-align: center;
+  display: inline-block;
+  color: #ebe6e4;
+  text-transform: lowercase; }
+  .nav-tabs h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 8vw; }
+  .nav-tabs h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 4vw; }
+  .nav-tabs h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw; }
+  .nav-tabs a {
+    color: #ebe6e4; }
+    .nav-tabs a:hover {
+      color: #444444; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  opacity: 0.5; }
 
 tbody td {
   color: #ebe6e4;
@@ -36,7 +63,7 @@ tbody td {
   tbody td h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     font-size: 2vw; }
   tbody td img {
     width: 100%; }

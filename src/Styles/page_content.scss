@@ -10,12 +10,32 @@
   }
   h3 {
     padding: 3% 0 5% 0;
+    font: {
+      style: italic;
+    }
   }
 }
 //end of home page
 
 //work page
-//tabe
+//the tabs nav
+.nav-tabs {
+  border:none;
+  text-align: center;
+  display: inline-block;
+  @include title-txt;
+  text-transform: lowercase;
+  a {
+    color: #ebe6e4;
+    &:hover {
+      color: #444444;
+    }
+  }
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  opacity: 0.5;
+}
+//tabel
 tbody {
   @include work-table;
 }

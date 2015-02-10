@@ -33,7 +33,7 @@
     visibility: hidden;
     width: 5vw;
     display: block;
-    margin: 0 auto; }
+    margin: 0 0; }
   .top-nav .nav li a:hover .icon {
     visibility: hidden; }
   .top-nav .nav li a:hover .icon1 {
