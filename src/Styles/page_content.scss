@@ -43,12 +43,15 @@ tbody {
 
 //contact page
 .contact1 {
+  padding: 3%;
   @include body-txt;
-  @include title-txt;
-  h2 {
-    font: {
-      size: 1.7vw!important;
-    }
+  p {
+    background-color: rgba(83,76,77,0.4);
   }
-
+  img {
+    padding-bottom: 2%;
+  }
+  .contact-icon{
+    width: 8vw;
+  }
 }
