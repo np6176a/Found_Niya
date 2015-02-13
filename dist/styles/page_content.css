@@ -112,3 +112,36 @@ tbody #title {
     padding-bottom: 2%; }
   .contact1 .contact-icon {
     width: 8vw; }
+
+.aboutme {
+  padding: 4% 4% 0 4%; }
+  .aboutme p {
+    background-color: rgba(83, 76, 77, 0.4);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-size: 1.5vw;
+    text-align: justify; }
+    .aboutme p span {
+      font-size: 2vw;
+      line-height: 3; }
+    .aboutme p p.first {
+      padding: 0 4% 0 0 !important; }
+  .aboutme h2 {
+    font-size: 3vw !important; }
+  .aboutme h4 {
+    font-size: 2vw;
+    padding-top: 2%; }
+  .aboutme table {
+    margin: 0 auto; }
+    .aboutme table td {
+      width: 18vw !important; }
+
+.aboutme-credit {
+  font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-size: 1.5vw; }
+  .aboutme-credit a {
+    color: #fff; }
+
+.aboutme-title h1 {
+  font-size: 15vw !important; }

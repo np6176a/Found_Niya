@@ -55,3 +55,47 @@ tbody {
     width: 8vw;
   }
 }
+.aboutme {
+  padding: 4% 4% 0 4%;
+  p {
+    background-color: rgba(83,76,77,0.4);
+    @include body-txt;
+    text-align: justify;
+    span {
+      font: {
+        size: 2vw;
+      };
+      line-height: 3;
+    }
+    p.first {
+      padding: 0 4% 0 0!important;
+    }
+  }
+  h2 {
+    font-size: 3vw!important;
+  }
+  h4 {
+    font: {
+      size: 2vw;
+    };
+    padding-top: 2%;
+  }
+  table {
+    margin: 0 auto;
+
+    td {
+      width: 18vw !important;
+    }
+  }
+}
+.aboutme-credit {
+  @include body-txt;
+  a {
+    color: #fff;
+  }
+}
+.aboutme-title {
+  h1 {
+    font-size: 15vw!important;
+  }
+}
