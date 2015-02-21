@@ -38,6 +38,12 @@
 //tabel
 tbody {
   @include work-table;
+  .role {
+    font: {
+      weight: 400!important;
+      style: italic;
+    }
+  }
 }
 //end of work page
 

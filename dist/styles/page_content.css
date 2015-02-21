@@ -52,7 +52,7 @@ tbody td {
   color: #ebe6e4;
   font-family: 'PT Serif', serif;
   font-style: normal;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   text-align: justify;
   padding: 3%;
   width: 40vw; }
@@ -77,9 +77,6 @@ tbody td {
     tbody td a:hover {
       text-decoration: none;
       color: #8f4f56; }
-  tbody td .role {
-    font-weight: 400 !important;
-    font-style: italic; }
   tbody td img {
     text-align: center;
     width: 100%; }
@@ -100,12 +97,15 @@ tbody #title {
     width: 30%;
     padding: 0 1%;
     max-height: 20vw; }
+tbody .role {
+  font-weight: 400 !important;
+  font-style: italic; }
 
 .contact1 {
   padding: 3%;
   font-family: 'PT Serif', serif;
   font-style: normal;
-  font-size: 1.5vw; }
+  font-size: 1.4vw; }
   .contact1 p {
     background-color: rgba(83, 76, 77, 0.4); }
   .contact1 img {
@@ -119,7 +119,7 @@ tbody #title {
     background-color: rgba(83, 76, 77, 0.4);
     font-family: 'PT Serif', serif;
     font-style: normal;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     text-align: justify; }
     .aboutme p span {
       font-size: 2vw;
@@ -139,7 +139,7 @@ tbody #title {
 .aboutme-credit {
   font-family: 'PT Serif', serif;
   font-style: normal;
-  font-size: 1.5vw; }
+  font-size: 1.4vw; }
   .aboutme-credit a {
     color: #fff; }
 
