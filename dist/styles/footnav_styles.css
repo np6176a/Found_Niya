@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif|Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
 .foot-nav {
   background: url("../images/geometry2.png");
-  width: 100vw;
+  width: 100%;
   text-align: center; }
   .foot-nav li {
     list-style-type: none;

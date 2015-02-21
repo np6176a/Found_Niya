@@ -38,7 +38,7 @@
 //the nav
 @mixin main-nav{
   background: url("../images/geometry2.png");
-  width: 100vw;
+  width: 100%;
   text-align: center;
   li {
     list-style-type: none;
@@ -63,7 +63,7 @@
 
 @mixin main-content{
   background: url("../images/main-content.jpg");
-  width: 100vw;
+  width: 100%;
 }
 
 @mixin work-table{
