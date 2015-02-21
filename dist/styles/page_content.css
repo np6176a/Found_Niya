@@ -48,58 +48,63 @@
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
   opacity: 0.5; }
 
-tbody td {
-  color: #ebe6e4;
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-size: 1.4vw;
-  text-align: justify;
-  padding: 3%;
-  width: 40vw; }
-  tbody td h1 {
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 8vw; }
-  tbody td h2 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 4vw; }
-  tbody td h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+.table {
+  padding: 0;
+  border-top: none; }
+  .table tbody td {
+    color: #ebe6e4;
+    font-family: 'PT Serif', serif;
     font-style: normal;
-    font-size: 2vw; }
-  tbody td a {
-    color: #ebe6e4; }
-    tbody td a h2 {
-      padding: 0 !important;
-      font-size: 3vw !important;
-      margin-bottom: 3%; }
-    tbody td a:hover {
-      text-decoration: none;
-      color: #8f4f56; }
-  tbody td img {
+    font-size: 1.4vw;
+    text-align: justify;
+    width: 40vw; }
+    .table tbody td h1 {
+      font-family: 'Cabin Sketch', cursive;
+      font-size: 8vw; }
+    .table tbody td h2 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 4vw; }
+    .table tbody td h3 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2vw; }
+    .table tbody td a {
+      color: #ebe6e4; }
+      .table tbody td a h2 {
+        padding: 0 !important;
+        font-size: 3vw !important;
+        margin-bottom: 3%; }
+      .table tbody td a:hover {
+        text-decoration: none;
+        color: #8f4f56; }
+    .table tbody td img {
+      text-align: center;
+      width: 100%; }
+  .table tbody .desc {
+    background-color: rgba(83, 76, 77, 0.4); }
+  .table tbody #title {
     text-align: center;
-    width: 100%; }
-tbody .desc {
-  background-color: rgba(83, 76, 77, 0.4); }
-tbody #title {
-  text-align: center;
-  width: 70vw;
-  padding: 1%; }
-  tbody #title .graphics {
-    width: 25%;
-    height: 25vw;
-    padding: 0 1%; }
-  tbody #title .graphics1 {
-    width: 50%;
-    padding: 0 1%; }
-  tbody #title .photo1 {
-    width: 30%;
-    padding: 0 1%;
-    max-height: 20vw; }
-tbody .role {
-  font-weight: 400 !important;
-  font-style: italic; }
+    width: 70vw;
+    padding: 1%; }
+    .table tbody #title .graphics {
+      width: 25%;
+      height: 25vw;
+      padding: 0 1%; }
+    .table tbody #title .graphics1 {
+      width: 50%;
+      padding: 0 1%; }
+    .table tbody #title .photo1 {
+      width: 30%;
+      padding: 0 1%;
+      max-height: 20vw; }
+  .table tbody tr td {
+    padding: 3%;
+    border-top: none; }
+  .table tbody .role {
+    font-weight: 400 !important;
+    font-style: italic; }
 
 .contact1 {
   padding: 3%;
