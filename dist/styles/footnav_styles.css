@@ -2,8 +2,7 @@
 .foot-nav {
   background: url("../images/geometry2.png");
   width: 100%;
-  text-align: center;
-  height: 100%; }
+  text-align: center; }
   .foot-nav li {
     list-style-type: none;
     padding: 0;
