@@ -1,23 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif|Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
-.desc {
-  background-color: rgba(83, 76, 77, 0.4); }
-
-#title {
-  text-align: center;
-  width: 70vw;
-  padding: 1%; }
-  #title .graphics {
-    width: 25%;
-    height: 25vw;
-    padding: 0 1%; }
-  #title .graphics1 {
-    width: 50%;
-    padding: 0 1%; }
-  #title .photo1 {
-    width: 30%;
-    padding: 0 1%;
-    max-height: 20vw; }
-
 .top-nav {
   background: url("../images/geometry2.png");
   width: 100%;
@@ -37,12 +18,12 @@
         color: #8f4f56;
         background: none; }
   .top-nav .brand img {
-    width: 13%;
+    height: 20%;
+    margin-bottom: 45%;
     -webkit-box-shadow: 0px 0px 8px 0px #3d3642;
     -moz-box-shadow: 0px 0px 8px 0px #3d3642;
     box-shadow: 0px 0px 8px 0px #3d3642;
-    border: 2px solid #3d3642;
-    margin: 2% 0 0 0; }
+    border: 2px solid #3d3642; }
   .top-nav .nav li a .icon {
     width: 5vw;
     display: block;

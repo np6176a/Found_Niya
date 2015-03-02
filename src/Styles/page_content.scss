@@ -36,15 +36,18 @@
   opacity: 0.5;
 }
 //tab-content
-.tab-content {
-  padding: 0;
+.tab-content.tab-pane {
+  @include body-txt;
+  padding: 5% 0;
   border-top: none;
+  p {
     .role {
       font: {
         weight: 400!important;
         style: italic;
       }
     }
+  }
 }
 //end of work page
 
@@ -65,7 +68,6 @@
 .aboutme {
   padding: 4% 4% 0 4%;
   p {
-    background-color: rgba(83, 76, 77, 0.4);
     @include body-txt;
     text-align: justify;
     span {
