@@ -46,6 +46,11 @@
     .tab-content a:hover {
       color: #db525e;
       text-decoration: none; }
+  .tab-content h2 {
+    font-size: 3vw;
+    padding: 0; }
+  .tab-content #web img {
+    width: 80%; }
   .tab-content p .role {
     font-weight: 400 !important;
     font-style: italic; }
@@ -60,6 +65,9 @@
     .contact1 a:hover {
       color: #db525e;
       text-decoration: none; }
+  .contact1 h2 {
+    font-size: 3vw;
+    padding: 0; }
   .contact1 p {
     background-color: rgba(83, 76, 77, 0.4); }
   .contact1 img {
@@ -79,6 +87,9 @@
       .aboutme p a:hover {
         color: #db525e;
         text-decoration: none; }
+    .aboutme p h2 {
+      font-size: 3vw;
+      padding: 0; }
     .aboutme p span {
       font-size: 2vw;
       line-height: 3; }
@@ -99,6 +110,9 @@
     .aboutme-credit a:hover {
       color: #db525e;
       text-decoration: none; }
+  .aboutme-credit h2 {
+    font-size: 3vw;
+    padding: 0; }
   .aboutme-credit a {
     color: #fff; }
 

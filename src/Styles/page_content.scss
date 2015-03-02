@@ -39,6 +39,11 @@
   @include body-txt;
   padding: 5% 0;
   border-top: none;
+  #web {
+    img {
+      width: 80%;
+    }
+  }
   p {
     .role {
       font: {
