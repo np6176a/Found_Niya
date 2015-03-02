@@ -38,7 +38,6 @@
 .tab-content {
   font-family: 'PT Serif', serif;
   font-style: normal;
-  font-size: 1.4vw;
   padding: 5% 0;
   border-top: none; }
   .tab-content a {
@@ -48,18 +47,45 @@
       text-decoration: none; }
   .tab-content h2 {
     font-size: 3vw;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
+  .tab-content .row1 {
+    margin-bottom: 5%; }
   .tab-content #web img {
     width: 80%; }
-  .tab-content p .role {
+  .tab-content #graphics img {
+    width: 70%;
+    height: 100%; }
+  .tab-content #graphics .img1 {
+    margin-left: 12vw; }
+  .tab-content #graphics .img2 {
+    margin: 0 -10%; }
+  .tab-content #graphics .img3 {
+    margin-left: -50%; }
+  .tab-content #graphics .img4 {
+    margin-left: -12vw; }
+  .tab-content #photo .row2 {
+    margin-bottom: 2%; }
+  .tab-content #photo img {
+    width: 80%; }
+  .tab-content #photo .img5 {
+    margin-left: 10vw; }
+  .tab-content #photo .img6 {
+    margin-right: 10vw; }
+  .tab-content p {
+    font-size: 1.5vw; }
+  .tab-content .role {
     font-weight: 400 !important;
     font-style: italic; }
+  .tab-content .align1 {
+    text-align: left; }
+  .tab-content .align2 {
+    text-align: right; }
 
 .contact1 {
   padding: 3%;
   font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-size: 1.4vw; }
+  font-style: normal; }
   .contact1 a {
     color: #ebe6e4; }
     .contact1 a:hover {
@@ -67,7 +93,8 @@
       text-decoration: none; }
   .contact1 h2 {
     font-size: 3vw;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
   .contact1 p {
     background-color: rgba(83, 76, 77, 0.4); }
   .contact1 img {
@@ -80,7 +107,6 @@
   .aboutme p {
     font-family: 'PT Serif', serif;
     font-style: normal;
-    font-size: 1.4vw;
     text-align: justify; }
     .aboutme p a {
       color: #ebe6e4; }
@@ -89,7 +115,8 @@
         text-decoration: none; }
     .aboutme p h2 {
       font-size: 3vw;
-      padding: 0; }
+      padding: 0;
+      margin: 0; }
     .aboutme p span {
       font-size: 2vw;
       line-height: 3; }
@@ -103,8 +130,7 @@
 
 .aboutme-credit {
   font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-size: 1.4vw; }
+  font-style: normal; }
   .aboutme-credit a {
     color: #ebe6e4; }
     .aboutme-credit a:hover {
@@ -112,7 +138,8 @@
       text-decoration: none; }
   .aboutme-credit h2 {
     font-size: 3vw;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
   .aboutme-credit a {
     color: #fff; }
 

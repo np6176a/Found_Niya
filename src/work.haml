@@ -54,7 +54,7 @@
           -#the first panel
           .tab-content
             .tab-pane.active#web(role="tabpanel")
-              .row
+              .row.row1
                 .col-md-6
                   %a(href="https://www.myjuliebees.com/" )
                     %img(src="images/juliebees/winterwakeup.jpg" )
@@ -62,14 +62,14 @@
                   %a(href="https://www.myjuliebees.com/" )
                     %h2 Julie Bee's
                   %p.role Position: Web & Graphic Designer
-                  %p Julie Bee's is an online shoe store that also hosted various offline events and marketing campaigns. My role was to design and develop the new online store on the Bigcommerce platform. I am now continuing to maintain the site, , while designing graphic materials for their offline activities.
+                  %p.align1 Julie Bee's is an online shoe store that also hosted various offline events and marketing campaigns. My role was to design and develop the new online store on the Bigcommerce platform. I am now continuing to maintain the site, , while designing graphic materials for their offline activities.
 
-              .row
+              .row.row1
                 .col-md-6
                   %a(href="http://www.zebrablinds.com/" )
                     %h2 Zebrablinds
                   %p.role Position: Graphic & UX Designer
-                  %p Zebrablinds is an online window treatment store that allowed customers to customize their window treatment choices. I was hired to inject some UX design into their existing online store and to design the graphics for their promotional material.
+                  %p.align2 Zebrablinds is an online window treatment store that allowed customers to customize their window treatment choices. I was hired to inject some UX design into their existing online store and to design the graphics for their promotional material.
                 .col-md-6
                   %a(href="http://www.zebrablinds.com/" )
                     %img(src="images/zebra/Cordlesscom.jpg" )
@@ -85,7 +85,7 @@
                     Position: Administrative Assistant,
                     %br
                     Web & Graphic Designer
-                  %p JD Graphics is a print shop that designed, printed and installed large scale graphics for vehicles and buildings. I worked as an Administrative Assistant managing the print shop, as a Graphic Designer creating designs for clients, and as the resident Web Designer building and maintaining the shop website.
+                  %p.align1 JD Graphics is a print shop that designed, printed and installed large scale graphics for vehicles and buildings. I worked as an Administrative Assistant managing the print shop, as a Graphic Designer creating designs for clients, and as the resident Web Designer building and maintaining the shop website.
 
             -#the second panel
             .tab-pane#graphics(role="tabpanel")
@@ -97,11 +97,11 @@
 
               .row
                 .col-md-4
-                  %img.graphics(src="images/juliebees/Valentine.gif" )
+                  %img.graphics.img1(src="images/juliebees/Valentine.gif" )
                 .col-md-4
-                  %img.graphics(src="images/juliebees/invite-4.jpg" )
+                  %img.graphics.img2(src="images/juliebees/invite-4.jpg" )
                 .col-md-4
-                  %img.graphics(src="images/juliebees/invite 3.jpg" )
+                  %img.graphics.img3(src="images/juliebees/invite 3.jpg" )
 
               .row
                 .col-md-12
@@ -110,13 +110,13 @@
                   %p Logo, Banners and Flyers
               .row
                 .col-md-6
-                  %img.graphics(src="images/zebra/Flyers1.jpg" )
+                  %img.graphics.img1(src="images/zebra/Flyers1.jpg" )
                 .col-md-6
-                  %img.graphics(src="images/zebra/Flyers2.jpg" )
+                  %img.graphics.img4(src="images/zebra/Flyers2.jpg" )
 
-              .row
-                .col-md-offset-2.col-md-8
-                  %img.graphics1(src="images/zebra/Cordlessca.jpg" )
+              -#.row
+              -#  .col-md-offset-2.col-md-8
+              -#    %img.graphics(src="images/zebra/Cordlessca.jpg" )
 
              -#the third panel
             .tab-pane#photo(role="tabpanel")
@@ -125,32 +125,32 @@
                   %a(href="https://www.myjuliebees.com/" )
                     %h2 Julie Bee's
                   %p Before & After Photo Edits
+              .row.row2
+                .col-md-6
+                  %img.img5(src="images/juliebees/val.jpg" )
+                .col-md-6
+                  %img.img6(src="images/juliebees/valentine.jpg" )
               .row
                 .col-md-6
-                  %img.photo1(src="images/juliebees/val.jpg" )
+                  %img.img5(src="images/juliebees/imageori.jpg" )
                 .col-md-6
-                  %img.photo1(src="images/juliebees/valentine.jpg" )
-              .row
-                .col-md-6
-                  %img.photo1(src="images/juliebees/imageori.jpg" )
-                .col-md-6
-                  %img.photo1(src="images/juliebees/image.jpg" )
+                  %img.img6(src="images/juliebees/image.jpg" )
 
               .row
                 .col-md-12
                   %a(href="https://www.myjuliebees.com/" )
                     %h2 JD Graphics
                   %p Before & After Photo Edits
+              .row.row2
+                .col-md-6
+                  %img.img5(src="images/JD/IMG_0001.jpg" )
+                .col-md-6
+                  %img.img6(src="images/JD/IMG_0001E.jpg" )
               .row
                 .col-md-6
-                  %img.photo1(src="images/JD/IMG_0001.jpg" )
+                  %img.img5(src="images/JD/IMG_0001-(1)-2.jpg" )
                 .col-md-6
-                  %img.photo1(src="images/JD/IMG_0001E.jpg" )
-              .row
-                .col-md-6
-                  %img.photo1(src="images/JD/IMG_0001-(1)-2.jpg" )
-                .col-md-6
-                  %img.photo1(src="images/JD/IMG_0001-(1)-2E.jpg" )
+                  %img.img6(src="images/JD/IMG_0001-(1)-2E.jpg" )
 
 
     -#the footer

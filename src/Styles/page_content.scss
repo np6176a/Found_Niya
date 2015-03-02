@@ -39,18 +39,58 @@
   @include body-txt;
   padding: 5% 0;
   border-top: none;
+  .row1 {
+    margin-bottom: 5%;
+  }
   #web {
     img {
       width: 80%;
     }
   }
-  p {
-    .role {
-      font: {
-        weight: 400!important;
-        style: italic;
-      }
+  #graphics {
+    img {
+      width: 70%;
+      height: 100%;
     }
+    .img1 {
+      margin-left: 12vw;
+    }
+    .img2 {
+      margin: 0 -10%;
+    }
+    .img3 {
+      margin-left: -50%;
+    }
+    .img4 {margin-left: -12vw}
+  }
+  #photo {
+    .row2 {
+      margin-bottom: 2%;
+    }
+    img {
+      width: 80%;
+    }
+    .img5 {
+      margin-left: 10vw;
+    }
+    .img6 {
+      margin-right: 10vw;
+    }
+  }
+  p {
+    font-size: 1.5vw;
+    }
+  .role {
+    font: {
+      weight: 400!important;
+      style: italic;
+    }
+  }
+  .align1 {
+    text-align: left;
+  }
+  .align2 {
+    text-align: right;
   }
 }
 //end of work page
