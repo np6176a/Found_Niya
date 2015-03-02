@@ -23,7 +23,6 @@
   border:none;
   text-align: center;
   display: inline-block;
-  @include title-txt;
   text-transform: lowercase;
   a {
     color: #ebe6e4;
@@ -36,7 +35,7 @@
   opacity: 0.5;
 }
 //tab-content
-.tab-content.tab-pane {
+.tab-content {
   @include body-txt;
   padding: 5% 0;
   border-top: none;

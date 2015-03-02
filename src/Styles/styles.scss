@@ -3,7 +3,6 @@
 
 //font settings for titles
 @mixin title-txt {
-  color: #ebe6e4;
   h1 {
     font: {
       family: 'Cabin Sketch', cursive;
@@ -28,7 +27,13 @@
   }
 }
 @mixin body-txt{
-  color: #ebe6e4;
+  a {
+    color: #ebe6e4;
+    &:hover {
+      color: #db525e;
+      text-decoration: none;
+    }
+  }
   font: {
     family: 'PT Serif', serif;
     style: normal;
@@ -55,7 +60,7 @@
       }
       color: #4d494d;
       &:hover {
-        color: #8f4f56;
+        color: #db525e;
         background: none;
       }
     }
@@ -65,4 +70,5 @@
 @mixin main-content{
   background: url("../images/main-content.jpg");
   width: 100%;
+  color: #ebe6e4;
 }
