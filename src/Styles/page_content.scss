@@ -35,25 +35,16 @@
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   opacity: 0.5;
 }
-//tabel
-.table {
+//tab-content
+.tab-content {
   padding: 0;
   border-top: none;
-  tbody {
-    @include work-table;
-    tr{
-      td{
-        padding: 3%;
-        border-top: none;
-      }
-    }
     .role {
       font: {
         weight: 400!important;
         style: italic;
       }
     }
-  }
 }
 //end of work page
 
@@ -74,34 +65,29 @@
 .aboutme {
   padding: 4% 4% 0 4%;
   p {
-    background-color: rgba(83,76,77,0.4);
+    background-color: rgba(83, 76, 77, 0.4);
     @include body-txt;
     text-align: justify;
     span {
       font: {
         size: 2vw;
-      };
+      }
+    ;
       line-height: 3;
     }
     p.first {
-      padding: 0 4% 0 0!important;
+      padding: 0 4% 0 0 !important;
     }
   }
   h2 {
-    font-size: 3vw!important;
+    font-size: 3vw !important;
   }
   h4 {
     font: {
       size: 2vw;
-    };
-    padding-top: 2%;
-  }
-  table {
-    margin: 0 auto;
-
-    td {
-      width: 18vw !important;
     }
+  ;
+    padding-top: 2%;
   }
 }
 .aboutme-credit {

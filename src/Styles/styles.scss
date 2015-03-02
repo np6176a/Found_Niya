@@ -66,53 +66,25 @@
   width: 100%;
 }
 
-@mixin work-table{
-  td {
-//    the type settings
-    @include title-txt;
-    @include body-txt;
-    text-align: justify;
-    a {
-      color: #ebe6e4;
-      h2 {
-        padding: 0!important;
-        font: {
-          size: 3vw!important;
-        }
-        margin-bottom: 3%;
-      }
-      &:hover {
-        text-decoration: none;
-        color:#8f4f56;
-      }
-    }
-//    the image and general settings
-    width: 40vw;
-    img {
-      text-align: center;
-      width: 100%;
-    }
-  }
-  .desc {
+.desc {
     background-color: rgba(83,76,77,0.4);
   }
-  #title {
-    text-align: center;
-    width: 70vw;
-    padding: 1%;
-    .graphics {
-      width: 25%;
-      height: 25vw;
-      padding:0 1%;
+#title {
+  text-align: center;
+  width: 70vw;
+  padding: 1%;
+  .graphics {
+    width: 25%;
+    height: 25vw;
+    padding:0 1%;
     }
-    .graphics1 {
-      width: 50%;
-      padding:0 1%;
-    }
-    .photo1 {
-      width: 30%;
-      padding:0 1%;
-      max-height: 20vw;
-    }
+  .graphics1 {
+    width: 50%;
+    padding:0 1%;
+  }
+  .photo1 {
+    width: 30%;
+    padding:0 1%;
+    max-height: 20vw;
   }
 }

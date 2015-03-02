@@ -1,4 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif|Lato:300,300italic,400italic,400,700|Cabin+Sketch:700);
+.desc {
+  background-color: rgba(83, 76, 77, 0.4); }
+
+#title {
+  text-align: center;
+  width: 70vw;
+  padding: 1%; }
+  #title .graphics {
+    width: 25%;
+    height: 25vw;
+    padding: 0 1%; }
+  #title .graphics1 {
+    width: 50%;
+    padding: 0 1%; }
+  #title .photo1 {
+    width: 30%;
+    padding: 0 1%;
+    max-height: 20vw; }
+
 .foot-nav {
   background: url("../images/geometry2.png");
   width: 100%;
