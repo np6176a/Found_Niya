@@ -40,15 +40,21 @@
     .container.home
       .row
         .col-xs-6.col-xs-offset-3.contact1
-          %img(src="images/profile.png" )
+          %img.profile(src="images/profile.png" )
           %p.lead I am accepting new projects and would love to hear about your project. Contact me here for more information or to just talk about your awesome project. If words are about to burst forth and you cannot stand the delay of email Twoople me for a chat.
-          %a(href="mailto:niyamp3@gmail.com" )
-            %img.contact-icon(src="images/mail.svg" )
-            %img.contact-icon(src="images/mail1.svg" )
-          %a(href="https://github.com/np6176a" )
-            %img.contact-icon(src="images/git.svg" )
-          %a(href="https://www.twoople.com/niya" )
-            %img.contact-icon(src="images/twoople.svg" )
+          %ul
+            %li(role="presentation" )
+              %a(href="mailto:niyamp3@gmail.com" )
+                %img.contact-icon(src="images/mail.svg" )
+                %img.contact-icon.hover(src="images/mail1.svg" )
+            %li(role="presentation" )
+              %a(href="https://github.com/np6176a" )
+                %img.contact-icon(src="images/git.svg" )
+                %img.contact-icon.hover(src="images/git1.svg" )
+            %li(role="presentation" )
+              %a(href="https://www.twoople.com/niya" )
+                %img.contact-icon(src="images/twoople.svg" )
+                %img.contact-icon.hover(src="images/twoople1.svg" )
     -#the footer
     .container.foot-nav
       .row

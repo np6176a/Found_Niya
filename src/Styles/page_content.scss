@@ -107,16 +107,42 @@
     text-align: justify;
     color: #232323;
   }
-  img {
-    padding-bottom: 4%;
-    padding: 3%;
+  .profile {
+    padding: 3% 3% 3% 4%;
     margin-bottom: 4%;
     border: 1px dashed #232323;
     border-radius: 100%
   }
-  .contact-icon{
-    border: none;
-    width: 8vw;
+  ul {
+    li {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 2% -5% 2%;
+      display: inline-block;
+      a {
+        .contact-icon{
+          border: none;
+          display: block;
+          width: 8vw;
+          position: absolute;
+        }
+        .hover {
+          visibility: hidden;
+          border: none;
+          display: block;
+          position: relative;
+          width: 8vw;
+        }
+        &:hover {
+          .contact-icon{
+            visibility: hidden;
+          }
+          .hover {
+            visibility: visible;
+          }
+        }
+      }
+    }
   }
 }
 .aboutme {
