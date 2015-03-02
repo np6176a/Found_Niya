@@ -18,23 +18,25 @@
         color: #db525e;
         background: none; }
   .top-nav .brand img {
-    height: 20%;
-    margin-bottom: 45%;
+    height: 15%;
+    margin-bottom: 30%;
     -webkit-box-shadow: 0px 0px 8px 0px #3d3642;
     -moz-box-shadow: 0px 0px 8px 0px #3d3642;
     box-shadow: 0px 0px 8px 0px #3d3642;
     border: 2px solid #3d3642; }
-  .top-nav .nav li a .icon {
-    width: 5vw;
-    display: block;
-    margin: 0 auto;
-    position: absolute; }
-  .top-nav .nav li a .icon1 {
-    visibility: hidden;
-    width: 5vw;
-    display: block;
-    margin: 0 0; }
-  .top-nav .nav li a:hover .icon {
-    visibility: hidden; }
-  .top-nav .nav li a:hover .icon1 {
-    visibility: visible; }
+  .top-nav .nav {
+    margin-bottom: -2%; }
+    .top-nav .nav li a .icon {
+      width: 5vw;
+      display: block;
+      margin: 0 auto;
+      position: absolute; }
+    .top-nav .nav li a .icon1 {
+      visibility: hidden;
+      width: 5vw;
+      display: block;
+      margin: 0 0; }
+    .top-nav .nav li a:hover .icon {
+      visibility: hidden; }
+    .top-nav .nav li a:hover .icon1 {
+      visibility: visible; }
