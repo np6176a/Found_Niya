@@ -38,7 +38,7 @@
 .tab-content {
   font-family: 'PT Serif', serif;
   font-style: normal;
-  padding: 5% 0;
+  padding: 2% 0;
   border-top: none; }
   .tab-content a {
     color: #ebe6e4; }
@@ -55,7 +55,7 @@
     width: 80%; }
   .tab-content #graphics img {
     width: 70%;
-    height: 100%; }
+    height: 67%; }
   .tab-content #graphics .img1 {
     margin-left: 12vw; }
   .tab-content #graphics .img2 {
