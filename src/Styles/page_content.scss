@@ -110,9 +110,9 @@
   }
 }
 .aboutme {
-  padding: 4% 4% 0 4%;
   p {
     @include body-txt;
+    font-size: 1.4vw;
     text-align: justify;
     span {
       font: {
@@ -126,7 +126,8 @@
     }
   }
   h2 {
-    font-size: 3vw !important;
+    font-size: 4vw !important;
+    padding-top: 0;
   }
   h4 {
     font: {
@@ -135,9 +136,28 @@
   ;
     padding-top: 2%;
   }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 2% 2%;
+    width: 29%;
+    display: inline-block;
+  }
+}
+.row3 {
+  padding-top: 4%;
+}
+.note {
+  background: url("../images/linedpaper.png");
+  color: #232323!important;
+  margin-top: 2%;
+  padding: 2% 2%;
 }
 .aboutme-credit {
   @include body-txt;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 1.1vw;
   a {
     color: #fff;
   }
