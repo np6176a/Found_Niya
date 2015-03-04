@@ -2,6 +2,7 @@
 @import "styles";
 .navbar {
   margin: 0;
+  @include main-nav;
 }
 //.top-nav {
 //  @include main-nav;
