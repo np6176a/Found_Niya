@@ -34,3 +34,11 @@
       visibility: hidden; }
     .navbar .navbar-nav li a:hover .icon1 {
       visibility: visible; }
+    .navbar .navbar-nav .brand a img {
+      background-color: #FDFDFD;
+      width: 50%;
+      margin-bottom: 30%;
+      -webkit-box-shadow: 0px 0px 8px 0px #3d3642;
+      -moz-box-shadow: 0px 0px 8px 0px #3d3642;
+      box-shadow: 0px 0px 8px 0px #3d3642;
+      border: 2px solid #3d3642; }
