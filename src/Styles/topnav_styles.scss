@@ -3,6 +3,33 @@
 .navbar {
   margin: 0;
   @include main-nav;
+  .navbar-nav {
+    float: none;
+    li {
+      a {
+        .icon {
+          width: 5vw;
+          display: block;
+          margin: 0 auto;
+          position: absolute;
+        }
+        .icon1 {
+          visibility: hidden;
+          width: 5vw;
+          display: block;
+          margin: 0 0;
+        }
+        &:hover {
+          .icon{
+            visibility: hidden;
+          }
+          .icon1{
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
 }
 //.top-nav {
 //  @include main-nav;
@@ -47,5 +74,3 @@
 //    }
 //  }
 //}
-
-
