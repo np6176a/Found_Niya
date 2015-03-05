@@ -20,14 +20,6 @@
         background: none; }
   .navbar .navbar-nav {
     float: none; }
-    .navbar .navbar-nav li a .brand {
-      background-color: #FDFDFD;
-      width: 200px;
-      margin: 0 auto;
-      -webkit-box-shadow: 0px 0px 8px 0px #3d3642;
-      -moz-box-shadow: 0px 0px 8px 0px #3d3642;
-      box-shadow: 0px 0px 8px 0px #3d3642;
-      border: 2px solid #3d3642; }
     .navbar .navbar-nav li a .icon {
       width: 80px;
       display: block;
@@ -42,6 +34,17 @@
       visibility: hidden; }
     .navbar .navbar-nav li a:hover .icon1 {
       visibility: visible; }
+    .navbar .navbar-nav li .brand {
+      padding-bottom: 0; }
+      .navbar .navbar-nav li .brand img {
+        background-color: #FDFDFD;
+        width: 200px;
+        display: block;
+        margin-bottom: -15px;
+        -webkit-box-shadow: 0px 0px 8px 0px #3d3642;
+        -moz-box-shadow: 0px 0px 8px 0px #3d3642;
+        box-shadow: 0px 0px 8px 0px #3d3642;
+        border: 2px solid #3d3642; }
 
 .navbar-nav > li {
   float: none; }
