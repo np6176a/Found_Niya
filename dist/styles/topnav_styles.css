@@ -23,6 +23,7 @@
     .navbar .navbar-nav li a .brand {
       background-color: #FDFDFD;
       width: 200px;
+      margin: 0 auto;
       -webkit-box-shadow: 0px 0px 8px 0px #3d3642;
       -moz-box-shadow: 0px 0px 8px 0px #3d3642;
       box-shadow: 0px 0px 8px 0px #3d3642;
