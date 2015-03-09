@@ -1,5 +1,5 @@
 /*
-Error: File to import not found or unreadable: bootstrap.
+Error: File to import not found or unreadable: bootstrap.scss.
        Load path: /Users/niya/github/Found_Niya/src/styles
         on line 3 of src/styles/styles.scss
         from line 2 of src/styles/page_content.scss
@@ -70,4 +70,4 @@ src/styles/page_content.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: bootstrap.\A        Load path: /Users/niya/github/Found_Niya/src/styles\A         on line 3 of src/styles/styles.scss\A         from line 2 of src/styles/page_content.scss\A \A 1: //connecting to styles\A 2: @import \"styles\";\A 3: \A 4: .home {\A 5:   @include main-content;\A 6:   @include title-txt;\A 7:   text-align: center;\A 8:   h2 {"; }
+  content: "Error: File to import not found or unreadable: bootstrap.scss.\A        Load path: /Users/niya/github/Found_Niya/src/styles\A         on line 3 of src/styles/styles.scss\A         from line 2 of src/styles/page_content.scss\A \A 1: //connecting to styles\A 2: @import \"styles\";\A 3: \A 4: .home {\A 5:   @include main-content;\A 6:   @include title-txt;\A 7:   text-align: center;\A 8:   h2 {"; }

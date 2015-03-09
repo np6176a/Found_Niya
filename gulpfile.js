@@ -10,11 +10,11 @@ var watch = require('gulp-watch');
 
 gulp.task('default', function() {
     gulp.task('scss', function() {
-        return sass('./src/styles/')
+        return sass('src/styles/')
             .on('error', function (err) {
                 console.error('Error!', err.message);
             })
-            .pipe(gulp.dest('./dist/styles'));
+            .pipe(gulp.dest('dist/styles'));
     });
     gulp.task('haml', function() {
         gulp.src('./src/**/*.haml')
@@ -26,21 +26,20 @@ gulp.task('default', function() {
         gulp.run('haml', 'scss');
         gulp.watch('./src/**/*.haml', ['haml']);
         gulp.watch('./src/styles/*.scss', ['scss']);
-        gulp.watch(config.sassPath + './bootstrap-sass/assets/stylesheets/*.scss', ['css']); 
     });
 
     gulp.task('bower', function() {
         return bower()
-        .pipe(gulp.dest(config.bower_components))
+        .pipe(gulp.dest(config.bowerDir))
     });
 
     gulp.task('css', function() {
-    return gulp.src(config.sassPath + './style.scss')
+    return gulp.src(config.sassPath + '/style.scss')
         .pipe(sass({
              style: 'compressed',
              loadPath: [
                  './resources/sass',
-                 config.bower_components + '/bootstrap-sass/assets/stylesheets',
+                 config.bowerDir + '/bootstrap-sass/assets/stylesheets',
         ]
                  }) 
     .on("error", notify.onError(function (error) {
@@ -48,5 +47,9 @@ gulp.task('default', function() {
              }))) 
              .pipe(gulp.dest('./dist/styles/css')); 
     });
+    gulp.task('watch', function() {
+         gulp.watch(config.sassPath + '/**/*.scss', ['css']); 
+    });
+
       gulp.task('default', ['bower', 'icons', 'css']);
 });
