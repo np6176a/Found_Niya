@@ -10,8 +10,6 @@
     "gulp": "^3.8.10",
     "gulp-haml": "^0.1.4",
     "gulp-ruby-sass": "^1.0.0-alpha.3",
-    "gulp-bower": "0.0.10",
-    "gulp-notify": "^2.2.0",
     "gulp-watch": "^4.1.0"
   },
   "scripts": {
