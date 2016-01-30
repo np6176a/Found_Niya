@@ -1,5 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
 .idea
 wordpress
 bower_components
 node_modules
+aws.json
+bower_components
