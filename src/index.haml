@@ -6,45 +6,63 @@
     %link(rel="stylesheet" href="styles/topnav_styles.css" )
     %link(rel="stylesheet" href="styles/footnav_styles.css" )
   %body
-    -#the nav and logo
     %nav.navbar.navbar-default
-      .container-fluid
-        -#Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
-            %span.sr-only
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.navbar-brand(href="#" )
-
-        -#Collect the nav links, forms, and other content for toggling, the id is needed for the collapsible when in toggle
-        .collapse.navbar-collapse#bs-example-navbar-collapse-1
-          %ul.nav.navbar-nav
+  .container-fluid
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+      %button.navbar-toggle.collapsed(aria-expanded= "false" data-target = "#bs-example-navbar-collapse-1" data-toggle = "collapse" type = "button")
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand(href = "#") Brand
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a(href = "#")
+            Link
+            %span.sr-only (current)
+        %li
+          %a(href = "#") Link
+        %li.dropdown
+          %a.dropdown-toggle(aria-expanded = "false" aria-haspopup = "true" data-toggle = "dropdown" href = "#" role = "button")
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu
             %li
-              %span.sr-only
-              %a(href="work.html")
-                %img.icon#coffee(src="images/coffee.svg" )
-                %img.icon1#coffee1(src="images/coffee2.svg" )
-                %span Work
+              %a(href = "#") Action
             %li
-              %a(href="about.html")
-                %img.icon(src="images/glasses.svg" )
-                %img.icon1(src="images/glasses1.svg" )
-                %span About
+              %a(href = "#") Another action
             %li
-              %a.brand(href="index.html")
-                %img(src="images/header.png" )
+              %a(href = "#") Something else here
+            %li.divider(role = "separator")
             %li
-              %a(href="http://findniya.com/blog/")
-                %img.icon(src="images/book.svg" )
-                %img.icon1(src="images/book1.svg" )
-                %span Blog
+              %a(href = "#") Separated link
+            %li.divider(role = "separator")
             %li
-              %a(href="contact.html")
-                %img.icon(src="images/phone.svg" )
-                %img.icon1(src="images/phone1.svg" )
-                %span Contact
+              %a(href = "#") One more separated link
+      %form.navbar-form.navbar-left(role = "search")
+        .form-group
+          %input.form-control(placeholder = "Search" type = "text")
+        %button.btn.btn-default(type = "submit") Submit
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a(href = "#") Link
+        %li.dropdown
+          %a.dropdown-toggle(aria-expanded = "false" aria-haspopup = "true" data-toggle = "dropdown" href = "#" role = "button")
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a(href = "#") Action
+            %li
+              %a(href = "#") Another action
+            %li
+              %a(href = "#") Something else here
+            %li.divider(role ="separator")
+            %li
+              %a(href = "#") Separated link
 
     -#the main body
     .container.home
@@ -76,5 +94,4 @@
                 %span Contact
 
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-    %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
     %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
