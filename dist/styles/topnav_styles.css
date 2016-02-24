@@ -7,11 +7,11 @@ Error: An @import loop has been found:
 
 1: //connecting to styles
 2: @import "styles";
-3: nav {
-4:   margin: 0;
-5:   .navbar-nav {
-6:     float: none;
-7:     li {
+3: 
+4: nav {
+5:   margin: 0;
+6:   .navbar-nav {
+7:     float: none;
 
 Backtrace:
 src/styles/styles.scss:2
@@ -67,4 +67,4 @@ src/styles/topnav_styles.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: An @import loop has been found:\A            src/styles/topnav_styles.scss imports src/styles/styles.scss\A            src/styles/styles.scss imports src/styles/topnav_styles.scss\A         on line 2 of src/styles/styles.scss\A         from line 2 of src/styles/topnav_styles.scss\A \A 1: //connecting to styles\A 2: @import \"styles\";\A 3: nav {\A 4:   margin: 0;\A 5:   .navbar-nav {\A 6:     float: none;\A 7:     li {"; }
+  content: "Error: An @import loop has been found:\A            src/styles/topnav_styles.scss imports src/styles/styles.scss\A            src/styles/styles.scss imports src/styles/topnav_styles.scss\A         on line 2 of src/styles/styles.scss\A         from line 2 of src/styles/topnav_styles.scss\A \A 1: //connecting to styles\A 2: @import \"styles\";\A 3: \A 4: nav {\A 5:   margin: 0;\A 6:   .navbar-nav {\A 7:     float: none;"; }
