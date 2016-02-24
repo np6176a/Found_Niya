@@ -4,6 +4,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-ruby-sass');
 var haml = require('gulp-haml');
+var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
 var s3 = require("gulp-s3");
 var fs = require('fs');
@@ -31,11 +32,18 @@ gulp.task('default', function() {
             .pipe(gulp.dest('./dist'))
     });
 
+    gulp.task('uglify', function() {
+        gulp.src('./src/scripts/*.js')
+            .pipe(uglify())
+            .pipe(gulp.dest('./dist/scripts/'))
+    });
     gulp.task('default', function() {
-        gulp.run('haml', 'scss');
+        gulp.run('haml', 'scss', 'uglify');
         gulp.watch('./src/**/*.haml', ['haml']);
         gulp.watch('./src/styles/*.scss', ['scss']);
+        gulp.watch('./src/scripts/*.js', ['uglify']);
     });
+
 });
 
 gulp.task("deploy", function() {
