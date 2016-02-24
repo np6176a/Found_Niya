@@ -2,7 +2,6 @@
 @import "styles";
 nav {
   margin: 0;
-  @include main-nav;
   .navbar-nav {
     float: none;
     li {
