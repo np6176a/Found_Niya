@@ -222,7 +222,9 @@ body {
     .about .title h2, .about .title .home h1, .home .about .title h1 {
       font-size: 4em; }
     .about .skill img {
-      width: 32%; }
+      margin-left: 4%;
+      margin-right: 4%;
+      width: 25.3%; }
     .about .para {
       margin: 10px; } }
 @media (max-width: 660px) {
