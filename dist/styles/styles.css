@@ -198,6 +198,29 @@ body {
       font-size: 1em;
       font-weight: bold; }
 
+.contact {
+  text-align: center;
+  margin: 20px 20px 40px; }
+  .contact .half {
+    width: 50%;
+    display: block;
+    margin: 0 auto; }
+  .contact p {
+    font-family: "Indie Flower", cursive;
+    font-size: 2em; }
+  .contact a {
+    width: 100%;
+    display: block;
+    padding: 50px; }
+    .contact a.email {
+      background: url("../images/mail.svg") no-repeat center; }
+      .contact a.email:hover {
+        background: url("../images/mail1.svg") no-repeat center; }
+    .contact a.git {
+      background: url("../images/git.svg") no-repeat center; }
+      .contact a.git:hover {
+        background: url("../images/git1.svg") no-repeat center; }
+
 @media (max-width: 900px) {
   body {
     background: #fafafa url("../images/bg.jpg"); }
@@ -215,8 +238,13 @@ body {
       line-height: 3em; }
 
   .about .para {
-    margin: 5px 5px 5px 10px; } }
-@media (max-width: 767px) {
+    margin: 5px 5px 5px 10px; }
+
+  .contact {
+    height: 70vh; }
+    .contact .half {
+      width: 100%; } }
+@media (max-width: 850px) {
   .about {
     margin: 20px; }
     .about .title h2, .about .title .home h1, .home .about .title h1 {
