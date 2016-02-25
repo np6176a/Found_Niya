@@ -101,3 +101,10 @@ nav#nav-mobile {
 
   nav#nav-mobile {
     display: block; } }
+.index {
+  background: #fafafa url("../images/paper.jpg"); }
+  .index .home {
+    text-align: center; }
+    .index .home h2 {
+      font-family: "Fontdiner Swanky", cursive;
+      font-size: 2em; }

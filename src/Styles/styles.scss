@@ -1,3 +1,14 @@
 @import "shortcuts";
 @import "topnav_styles";
 
+//-----------------------the home page----------------
+.index {
+  background:$bgmain;
+  .home{
+    text-align: center;
+    h2{
+      font-family: $title;
+      font-size: 2em;
+    }
+  }
+}
