@@ -1,7 +1,7 @@
 //the mobile button
 #nav-trigger {
   display: none;
-  text-align: center;
+  text-align: right;
   span {
     display: inline-block;
     padding: 10px 30px;
@@ -9,6 +9,7 @@
     color: white;
     cursor: pointer;
     text-transform: uppercase;
+    z-index: 2;
     &:hover, &:active {
       background-color: lighten($orange, 10%);
     }
@@ -32,13 +33,16 @@ nav {
         display: inline-block;
         background: none;
         text-align: center;
-
+        &#home {
+          display: none;
+        }
         a {
           display: block;
           color: $greyReg;
           font-family: $body;
           width: 80px;
           font-size: 2.5em;
+
           &#coffee {
             background: url('../images/coffee.svg') no-repeat center top;
             padding: 110px 0 0;
@@ -90,7 +94,7 @@ nav {
 nav#nav-mobile {
   position: relative;
   display: none;
-
+  z-index: 1;
   ul {
     display: none;
     list-style-type: none;
@@ -100,20 +104,48 @@ nav#nav-mobile {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: $bgnav;
+    background: #fafafa;
     li {
       display: block;
       padding: 5px 0;
       margin: 0 5px;
-      &.col-sm-2{
+      &.col-sm-2 {
         width: 100%;
+      }
+      &.logo {
+        display: none;
+      }
+      &#home {
+        display: block;
       }
       a {
         display: block;
         color: $greyReg;
         padding: 10px 30px;
+        font-size: 2em;
+        font-family: $body;
         &:hover {
-          background-color: lighten($orange, 10%);
+          background-color: lighten($orange, 20%);
+        }
+        &#coffee {
+          background-image: url('../images/coffee.svg');
+          background-repeat: no-repeat;
+          background-position: 35% -20px;
+        }
+        &#glass {
+          background-image: url('../images/glasses.svg');
+          background-repeat: no-repeat;
+          background-position: 35% -20px;
+        }
+        &#book {
+          background-image: url('../images/book.svg');
+          background-repeat: no-repeat;
+          background-position: 35% -20px;
+        }
+        &#call {
+          background-image: url('../images/phone.svg');
+          background-repeat: no-repeat;
+          background-position: 35% -20px;
         }
       }
     }

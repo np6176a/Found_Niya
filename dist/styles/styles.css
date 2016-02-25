@@ -1,14 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Fontdiner+Swanky);
 #nav-trigger {
   display: none;
-  text-align: center; }
+  text-align: right; }
   #nav-trigger span {
     display: inline-block;
     padding: 10px 30px;
     background-color: #f58235;
     color: white;
     cursor: pointer;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    z-index: 2; }
     #nav-trigger span:hover, #nav-trigger span:active {
       background-color: #f7a066; }
 
@@ -26,6 +27,8 @@ nav {
         display: inline-block;
         background: none;
         text-align: center; }
+        nav#nav-main ul li#home {
+          display: none; }
         nav#nav-main ul li a {
           display: block;
           color: #333;
@@ -64,7 +67,8 @@ nav {
 
 nav#nav-mobile {
   position: relative;
-  display: none; }
+  display: none;
+  z-index: 1; }
   nav#nav-mobile ul {
     display: none;
     list-style-type: none;
@@ -74,19 +78,41 @@ nav#nav-mobile {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: rgba(238, 238, 238, 0.5); }
+    background: #fafafa; }
     nav#nav-mobile ul li {
       display: block;
       padding: 5px 0;
       margin: 0 5px; }
       nav#nav-mobile ul li.col-sm-2 {
         width: 100%; }
+      nav#nav-mobile ul li.logo {
+        display: none; }
+      nav#nav-mobile ul li#home {
+        display: block; }
       nav#nav-mobile ul li a {
         display: block;
         color: #333;
-        padding: 10px 30px; }
+        padding: 10px 30px;
+        font-size: 2em;
+        font-family: "Indie Flower", cursive; }
         nav#nav-mobile ul li a:hover {
-          background-color: #f7a066; }
+          background-color: #fabe96; }
+        nav#nav-mobile ul li a#coffee, nav#nav-mobile nav#nav-main ul li a#glass, nav#nav-main nav#nav-mobile ul li a#glass, nav#nav-mobile nav#nav-main ul li a#book, nav#nav-main nav#nav-mobile ul li a#book, nav#nav-mobile nav#nav-main ul li a#call, nav#nav-main nav#nav-mobile ul li a#call {
+          background-image: url("../images/coffee.svg");
+          background-repeat: no-repeat;
+          background-position: 35% -20px; }
+        nav#nav-mobile ul li a#glass {
+          background-image: url("../images/glasses.svg");
+          background-repeat: no-repeat;
+          background-position: 35% -20px; }
+        nav#nav-mobile ul li a#book {
+          background-image: url("../images/book.svg");
+          background-repeat: no-repeat;
+          background-position: 35% -20px; }
+        nav#nav-mobile ul li a#call {
+          background-image: url("../images/phone.svg");
+          background-repeat: no-repeat;
+          background-position: 35% -20px; }
 
 /* =Media Queries
 -------------------------------------------------------------- */
@@ -171,8 +197,25 @@ body {
       font-size: 1em;
       font-weight: bold; }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
+  body {
+    background: #fafafa url("../images/bg.jpg"); }
+
+  .home {
+    height: 70vh; }
+    .home h2, .home h1 {
+      line-height: 2em;
+      font-size: 7em; }
+    .home h1 {
+      font-size: 5em;
+      line-height: 2em; }
+    .home h3 {
+      font-size: 2em;
+      line-height: 3em; } }
+@media (max-width: 660px) {
   .home h1 {
-    font-size: 5em; }
-  .home h3 {
-    font-size: 2em; } }
+    font-size: 4em; } }
+@media (max-width: 5400px) {
+  .home h2, .home h1 {
+    line-height: 1.5em;
+    font-size: 5em; } }

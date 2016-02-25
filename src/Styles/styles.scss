@@ -78,15 +78,41 @@ body {
 }
 
 //---------------------------------------the media queries----------------------------------------
-@media (min-width: 900px) {
+@media (max-width: 900px) {
+  body{
+    background: $bgmain;
+  }
   .home {
-
+    height: 70vh;
+    h2 {
+      line-height: 2em;
+      font-size: 7em;
+    }
     h1 {
       font-size: 5em;
+      line-height: 2em;
     }
     h3 {
-
       font-size: 2em;
+      line-height: 3em;
     }
+  }
+}
+
+@media (max-width: 660px) {
+  .home {
+    h1 {
+      font-size: 4em;
+    }
+  }
+}
+
+@media (max-width: 5400px) {
+  .home {
+    h2 {
+      line-height: 1.5em;
+      font-size: 5em;
+    }
+
   }
 }

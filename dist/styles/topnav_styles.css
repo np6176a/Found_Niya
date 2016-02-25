@@ -3,7 +3,7 @@ Error: Undefined variable: "$orange".
         on line 8 of src/styles/topnav_styles.scss
 
 3:   display: none;
-4:   text-align: center;
+4:   text-align: right;
 5:   span {
 6:     display: inline-block;
 7:     padding: 10px 30px;
@@ -11,8 +11,8 @@ Error: Undefined variable: "$orange".
 9:     color: white;
 10:     cursor: pointer;
 11:     text-transform: uppercase;
-12:     &:hover, &:active {
-13:       background-color: lighten($orange, 10%);
+12:     z-index: 2;
+13:     &:hover, &:active {
 
 Backtrace:
 src/styles/topnav_styles.scss:8
@@ -77,4 +77,4 @@ src/styles/topnav_styles.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 8 of src/styles/topnav_styles.scss\A \A 3:   display: none;\A 4:   text-align: center;\A 5:   span {\A 6:     display: inline-block;\A 7:     padding: 10px 30px;\A 8:     background-color: $orange;\A 9:     color: white;\A 10:     cursor: pointer;\A 11:     text-transform: uppercase;\A 12:     &:hover, &:active {\A 13:       background-color: lighten($orange, 10%);"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 8 of src/styles/topnav_styles.scss\A \A 3:   display: none;\A 4:   text-align: right;\A 5:   span {\A 6:     display: inline-block;\A 7:     padding: 10px 30px;\A 8:     background-color: $orange;\A 9:     color: white;\A 10:     cursor: pointer;\A 11:     text-transform: uppercase;\A 12:     z-index: 2;\A 13:     &:hover, &:active {"; }
