@@ -1,0 +1,65 @@
+/*
+Error: Undefined variable: "$bgnav".
+        on line 2 of src/styles/footnav_styles.scss
+
+1: .foot-nav {
+2:   background: $bgnav;
+3:   margin: 0 auto;
+4:   text-align: center;
+5:   position: relative;
+6:   width: 100%;
+7:   bottom: 0;
+
+Backtrace:
+src/styles/footnav_styles.scss:2
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/engine.rb:268:in `render'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/exec/sass_scss.rb:350:in `watch_or_update'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/exec/base.rb:52:in `parse'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/exec/base.rb:19:in `parse!'
+/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/bin/sass:13:in `<top (required)>'
+/Users/niya/.rbenv/versions/2.1.2/bin/sass:23:in `load'
+/Users/niya/.rbenv/versions/2.1.2/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$bgnav\".\A         on line 2 of src/styles/footnav_styles.scss\A \A 1: .foot-nav {\A 2:   background: $bgnav;\A 3:   margin: 0 auto;\A 4:   text-align: center;\A 5:   position: relative;\A 6:   width: 100%;\A 7:   bottom: 0;"; }

@@ -4,7 +4,7 @@
     %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
     %link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
     %link(rel="stylesheet" href="styles/styles.css" )
-  %body.index
+  %body
 
     -#--------------------------------------the navigation of all things----------------
     %nav#nav-main.container-fluid
@@ -31,7 +31,7 @@
     %nav#nav-mobile
 
     -#------------------------the main body------------------------------
-    .container.home
+    .container-fluid.home
       .row
         .col-xs-12
           %h2 Hi
@@ -39,9 +39,9 @@
           %h3 "Of course I talk to myself, because sometimes I need expert advice."
 
     -#---------------------------------the footer: reminder love yourself--------------------
-    .container.foot-nav
+    .container-fluid.foot-nav
       .row
-        .col-md-4.col-md-offset-4.col-sm-12
+        .col-xs-12
           %img(src="images/fn.png" )
 
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
