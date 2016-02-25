@@ -5,31 +5,23 @@
     %link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
     %link(rel="stylesheet" href="styles/styles.css" )
   %body
-    %nav#nav-main
-      %ul
-        %li
-          %a(href="work.html")
-            %img.icon#coffee(src="images/coffee.svg" )
-            %img.icon1#coffee1(src="images/coffee2.svg" )
-            %span Work
-        %li
-          %a(href="about.html")
-            %img.icon(src="images/glasses.svg" )
-            %img.icon1(src="images/glasses1.svg" )
-            %span About
-        %li
+    %nav#nav-main.container-fluid
+      %ul.row
+        %li.col-md-2
+          %a#coffee(href="work.html")
+            Work
+        %li.col-md-2
+          %a#glass(href="about.html")
+            About
+        %li.col-md-4
           %a.brand(href="index.html")
-            %img(src="images/header.png" )
-        %li
-          %a(href="http://blog.findniya.com")
-            %img.icon(src="images/book.svg" )
-            %img.icon1(src="images/book1.svg" )
-            %span Blog
-        %li
-          %a(href="contact.html")
-            %img.icon(src="images/phone.svg" )
-            %img.icon1(src="images/phone1.svg" )
-            %span Contact
+            -#%img(src="images/header.png" )
+        %li.col-md-2
+          %a#book(href="http://blog.findniya.com")
+            Blog
+        %li.col-md-2
+          %a#call(href="contact.html")
+            Contact
     #nav-trigger
       %span
         %i.material-icons.toggle
