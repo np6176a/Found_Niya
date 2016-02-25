@@ -2,10 +2,11 @@
 @import "topnav_styles";
 @import "footnav_styles";
 
-//-----------------------the home page----------------
 body {
   background: $bgnav;
 }
+
+//-----------------------the home page----------------
 .home {
   text-align: center;
   background: $bgmain;
@@ -25,3 +26,54 @@ body {
     line-height: 1em;
   }
 }
+
+//----------------------the about page----------------------
+.about {
+  background: $bgmain;
+  margin: 20px 20px 20px 40px;
+  .title {
+    text-align: center;
+    h2 {
+      font-family: $title;
+      font-size: 5em;
+      line-height: 1.5em;
+    }
+  }
+  .skill {
+    margin: 5px;
+    padding: 0;
+    img {
+      width: 100%;
+    }
+  }
+  .para {
+    margin: 5px 5px 5px 30px;
+    padding: 0;
+    p {
+      font-family: $body;
+      font-size: 1.3em;
+      font-weight: bold;
+      span {
+        color: $pink;
+      }
+    }
+  }
+  .creditTitle {
+    text-align: center;
+    h4 {
+      font-family: $title;
+      font-size: 2em;
+      line-height: 1.5em;
+    }
+  }
+  .credit {
+    margin-bottom: 30px;
+    text-align: center;
+    p {
+      font-family: $body;
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
+}
+

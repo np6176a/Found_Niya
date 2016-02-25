@@ -30,60 +30,42 @@
     %nav#nav-mobile
 
     -#------------------------the main body------------------------------
-    .container.home
+    .container-fluid.about
       .row
-        .col-md-6.col-xs-12.aboutme
+        .col-xs-12.title
           %h2 My Skills
-          %ul
-            %li
-              %img(src="images/skills/ps.svg" )
-            %li
-              %img(src="images/skills/ai.svg" )
-            %li
-              %img(src="images/skills/lr.svg" )
-            %li
-              %img(src="images/skills/id.svg" )
-            %li
-              %img(src="images/skills/html.svg" )
-            %li
-              %img(src="images/skills/css.svg" )
-            %li
-              %img(src="images/skills/bootstrap.svg" )
-            %li
-              %img(src="images/skills/wordpress.svg" )
-        .col-md-offset-1.col-md-4.col-xs-12.aboutme.note
+      .row
+        .col-xs-12.col-sm-1.skill
+          %img(src="images/skills/ps.svg" )
+          %img(src="images/skills/ai.svg" )
+          %img(src="images/skills/id.svg" )
+        .col-xs-12.col-sm-1.skill
+          %img(src="images/skills/html.svg" )
+          %img(src="images/skills/less.svg" )
+          %img(src="images/skills/sass.svg" )
+        .col-xs-12.col-sm-1.skill
+          %img(src="images/skills/jq.svg" )
+          %img(src="images/skills/angular.svg" )
+          %img(src="images/skills/boot.svg" )
+        .col-xs-2.col-sm-1.skill
+          %img(src="images/skills/sql.svg" )
+          %img(src="images/skills/wordpress.svg" )
+        .col-xs-12.col-sm-7.para
           %p
-            I have a nobel prize in coffee consumption. I have walked around the world in 80 days. Climbing Mt. Everest was a weekend jog for me. My wit was the muse for Shakespear.
+            I have a nobel prize in coffee consumption. I have walked around the world in 80 days. Climbing Mt. Everest was a weekend jog for me. My wit was the muse for Shakespeare.
             %br
-            %span Yes I have done it all.
+            %span Yes I have done it all (not really but working on it).
           %p
             I started out as one of the many misguided pre-law students working to be a serious lawyer. Then I realized how many wrinkles I was going to get from frowning at books all day.
             %br
             Luckily, I stumbled into a Graphic and Web Design class, where I learned a whole new way to frown (apparently its called a smile :). I learned to code and got some design experience. I landed some great freelance jobs and I learned even more.
             %br
             I love creating designs for all kinds of things, online and offline. So if you have something great you were thinking of putting out there, I would love to help you design it into being.
-
-      .row.row3
-        .col-md-6.col-xs-12.aboutme
-          %h1 My Experience
-        .col-md-6.col-xs-12.aboutme
-          %h4 Julie Bee's: Web & Graphic Designer
-          %p.first I was initially brought on to help design and create graphics for their Newsletters and print medias. Since then, I have designed animated Newsletters and all their event invites, and migrated their online store into Bigcommerce. The migration of the site involved customizing the Bigcommerce theme using HTML, CSS, and JQuery. I uploaded content and setup the new online store into Bigcommerce, and used the platform to link and setup social shop like Facebook and Google Shop. Currently, I maintain the site and am helping to improve Search Engine Optimization and Adwords setup.
-
       .row
-        .col-md-6.col-xs-12.aboutme
-          %h4 Zebrablinds: Graphics & UX Designer
-          %p When I began at Zebrablinds, they already had a team for development and the current online store was live. My work involved creating and designing promotional material for their seasonal marketing campaigns like Christmas Calendars and cards, promotional flyers, and Web banners for their site. From here I was teamed with the development team to improve the User Experience of the site. The majority of my work involved in helping to simplify the product customization features to allow customer to make purchases quicker with less clutter.
-        .col-md-6.col-xs-12.aboutme
-          %h4
-            JD Graphics: Administrative Assistant,
-            %br
-            Web & Graphic Designer
-          %p With JD Graphics I started as the in-house Web Designer and Junior Graphic Designer. I designed graphics for their clients and helped with the daily management of the print shop, while setting up their new site with client friendly and web responsive features. Later, I was promoted to Adminstrative Assistant in charge of managing much of the daily running of the print shop, while continuing my role as a Graphic and Web Designer.
-
-      .row
-        .col-md-12.aboutme-credit
+        .col-xs-12.creditTitle
           %h4 Giving Credit Where It's Owed!
+      .row
+        .col-xs-12.credit
           %p
             The Site Utilizes: Bootstrap, Haml, Sass, Jquery, & Gulp
             &nbsp;&nbsp;
@@ -102,9 +84,9 @@
 
 
     -#---------------------------------the footer: reminder love yourself--------------------
-    .container.foot-nav
+    .container-fluid.foot-nav
       .row
-        .col-md-4.col-md-offset-4.col-sm-12
+        .col-xs-12
           %img(src="images/fn.png" )
 
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
