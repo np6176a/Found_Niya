@@ -8,19 +8,21 @@
     -#--------------------------------------the navigation of all things----------------
     %nav#nav-main.container-fluid
       %ul.row
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12#home
+          %a#index(href="index.html")
+            Home
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#coffee(href="work.html")
             Work
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#glass(href="about.html")
             About
-        %li.col-md-4
+        %li.col-md-4.col-sm-4.col-xs-12.logo
           %a.brand(href="index.html")
-        -#%img(src="images/header.png" )
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#book(href="http://blog.findniya.com")
             Blog
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#call(href="contact.html")
             Contact
     #nav-trigger
@@ -35,19 +37,15 @@
         .col-xs-6.col-xs-offset-3.contact1
           %img.profile(src="images/profile.png" )
           %p.lead I am accepting new projects and would love to hear about your project. Contact me here for more information or to just talk about your awesome project. If words are about to burst forth and you cannot stand the delay of email, Twoople me.
-          %ul
-            %li(role="presentation" )
+          .row
+            .col-xs-6(role="presentation" )
               %a(href="mailto:niyamp3@gmail.com" )
                 %img.contact-icon(src="images/mail.svg" )
                 %img.contact-icon.hover(src="images/mail1.svg" )
-            %li(role="presentation" )
+            .col-xs-4.col-xs-offset-4(role="presentation" )
               %a(href="https://github.com/np6176a" )
                 %img.contact-icon(src="images/git.svg" )
                 %img.contact-icon.hover(src="images/git1.svg" )
-            %li(role="presentation" )
-              %a(href="https://www.twoople.com/niya" )
-                %img.contact-icon(src="images/twoople.svg" )
-                %img.contact-icon.hover(src="images/twoople1.svg" )
     -#---------------------------------the footer: reminder love yourself--------------------
     .container.foot-nav
       .row

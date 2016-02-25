@@ -1,35 +1,23 @@
 /*
-Error: Undefined variable: "$orange".
-        on line 8 of src/styles/topnav_styles.scss
+Error: Undefined variable: "$bgnav".
+        on line 5 of src/styles/topnav_styles.scss
 
+1: //the mobile button
+2: #nav-trigger {
 3:   display: none;
 4:   text-align: right;
-5:   span {
-6:     display: inline-block;
-7:     padding: 10px 30px;
-8:     background-color: $orange;
-9:     color: white;
-10:     cursor: pointer;
-11:     text-transform: uppercase;
-12:     z-index: 2;
-13:     &:hover, &:active {
+5:   background: $bgnav;
+6:   span {
+7:     display: inline-block;
+8:     padding: 10px 30px;
+9:     background-color: $orange;
+10:     color: white;
 
 Backtrace:
-src/styles/topnav_styles.scss:8
+src/styles/topnav_styles.scss:5
 /Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:420:in `map'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 /Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/niya/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
@@ -77,4 +65,4 @@ src/styles/topnav_styles.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 8 of src/styles/topnav_styles.scss\A \A 3:   display: none;\A 4:   text-align: right;\A 5:   span {\A 6:     display: inline-block;\A 7:     padding: 10px 30px;\A 8:     background-color: $orange;\A 9:     color: white;\A 10:     cursor: pointer;\A 11:     text-transform: uppercase;\A 12:     z-index: 2;\A 13:     &:hover, &:active {"; }
+  content: "Error: Undefined variable: \"$bgnav\".\A         on line 5 of src/styles/topnav_styles.scss\A \A 1: //the mobile button\A 2: #nav-trigger {\A 3:   display: none;\A 4:   text-align: right;\A 5:   background: $bgnav;\A 6:   span {\A 7:     display: inline-block;\A 8:     padding: 10px 30px;\A 9:     background-color: $orange;\A 10:     color: white;"; }

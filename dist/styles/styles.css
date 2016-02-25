@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Fontdiner+Swanky);
 #nav-trigger {
   display: none;
-  text-align: right; }
+  text-align: right;
+  background: rgba(238, 238, 238, 0.5); }
   #nav-trigger span {
     display: inline-block;
     padding: 10px 30px;
@@ -211,11 +212,26 @@ body {
       line-height: 2em; }
     .home h3 {
       font-size: 2em;
-      line-height: 3em; } }
+      line-height: 3em; }
+
+  .about .para {
+    margin: 5px 5px 5px 10px; } }
+@media (max-width: 767px) {
+  .about {
+    margin: 20px; }
+    .about .title h2, .about .title .home h1, .home .about .title h1 {
+      font-size: 4em; }
+    .about .skill img {
+      width: 32%; }
+    .about .para {
+      margin: 10px; } }
 @media (max-width: 660px) {
   .home h1 {
     font-size: 4em; } }
-@media (max-width: 5400px) {
+@media (max-width: 540px) {
   .home h2, .home h1 {
     line-height: 1.5em;
-    font-size: 5em; } }
+    font-size: 5em; }
+
+  .about .creditTitle h4 {
+    font-size: 1.5em; } }

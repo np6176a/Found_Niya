@@ -79,9 +79,10 @@ body {
 
 //---------------------------------------the media queries----------------------------------------
 @media (max-width: 900px) {
-  body{
+  body {
     background: $bgmain;
   }
+  //--------------------the home page bitches------------
   .home {
     height: 70vh;
     h2 {
@@ -97,6 +98,32 @@ body {
       line-height: 3em;
     }
   }
+  //  ---------------------clearly i love talking about myself-----------
+  .about {
+    .para {
+      margin: 5px 5px 5px 10px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  //  --------------about me for tablets woohooo
+  .about {
+    margin: 20px;
+    .title {
+      h2 {
+        font-size: 4em;
+      }
+    }
+    .skill {
+      img {
+        width: 32%;
+      }
+    }
+    .para {
+      margin: 10px;
+    }
+  }
 }
 
 @media (max-width: 660px) {
@@ -107,12 +134,21 @@ body {
   }
 }
 
-@media (max-width: 5400px) {
+@media (max-width: 540px) {
+  //--------------------the home page
   .home {
     h2 {
       line-height: 1.5em;
       font-size: 5em;
     }
 
+  }
+//  --------------------about moi
+  .about{
+    .creditTitle {
+      h4 {
+        font-size: 1.5em;
+      }
+    }
   }
 }
