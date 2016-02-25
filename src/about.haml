@@ -1,52 +1,35 @@
 %html
   %head
-    %title Found Niya
-    %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" )
-    %link(rel="stylesheet" href="styles/page_content.css" )
-    %link(rel="stylesheet" href="styles/topnav_styles.css" )
-    %link(rel="stylesheet" href="styles/footnav_styles.css" )
+    %title About Niya
+    %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+    %link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    %link(rel="stylesheet" href="styles/styles.css" )
   %body
-    -#the nav and logo
-    %nav.navbar.navbar-default
-      .container-fluid
-        -#Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
-            %span.sr-only
-              Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.navbar-brand(href="#" )
+    -#--------------------------------------the navigation of all things----------------
+    %nav#nav-main.container-fluid
+      %ul.row
+        %li.col-md-2
+          %a#coffee(href="work.html")
+            Work
+        %li.col-md-2
+          %a#glass(href="about.html")
+            About
+        %li.col-md-4
+          %a.brand(href="index.html")
+            -#%img(src="images/header.png" )
+        %li.col-md-2
+          %a#book(href="http://blog.findniya.com")
+            Blog
+        %li.col-md-2
+          %a#call(href="contact.html")
+            Contact
+    #nav-trigger
+      %span
+        %i.material-icons.toggle
+          menu
+    %nav#nav-mobile
 
-        -#Collect the nav links, forms, and other content for toggling, the id is needed for the collapsible when in toggle
-        .collapse.navbar-collapse#bs-example-navbar-collapse-1
-          %ul.nav.navbar-nav
-            %li
-              %a(href="work.html")
-                %img.icon#coffee(src="images/coffee.svg" )
-                %img.icon1#coffee1(src="images/coffee2.svg" )
-                %span Work
-            %li
-              %a(href="about.html")
-                %img.icon(src="images/glasses.svg" )
-                %img.icon1(src="images/glasses1.svg" )
-                %span About
-            %li
-              %a.brand(href="index.html")
-                %img(src="images/header.png" )
-            %li
-              %a(href="http://findniya.com/blog/")
-                %img.icon(src="images/book.svg" )
-                %img.icon1(src="images/book1.svg" )
-                %span Blog
-            %li
-              %a(href="contact.html")
-                %img.icon(src="images/phone.svg" )
-                %img.icon1(src="images/phone1.svg" )
-                %span Contact
-
-    -#the main body
+    -#------------------------the main body------------------------------
     .container.home
       .row
         .col-md-6.col-xs-12.aboutme
@@ -101,8 +84,8 @@
       .row
         .col-md-12.aboutme-credit
           %h4 Giving Credit Where It's Owed!
-
-          %p The Site Utilizes: Bootstrap, Haml, Sass, Jquery, & Gulp
+          %p
+            The Site Utilizes: Bootstrap, Haml, Sass, Jquery, & Gulp
             &nbsp;&nbsp;
             Photo Credit:
             &nbsp;
@@ -117,26 +100,13 @@
             &nbsp;
             %a(href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" ) CC BY 3.0
 
-    -#the footer
+
+    -#---------------------------------the footer: reminder love yourself--------------------
     .container.foot-nav
       .row
-        .col-xs-12.
-          %ul.nav
-            %li
-              %a(href="work.html")
-                %span Work
-            %li
-              %a(href="about.html")
-                %span About
-            %li
-              %a(href="index.html" )
-                %img(src="images/fn.png" )
-            %li
-              %a(href="http://findniya.com/blog/")
-                %span Blog
-            %li
-              %a(href="contact.html")
-                %span Contact
+        .col-md-4.col-md-offset-4.col-sm-12
+          %img(src="images/fn.png" )
 
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-    %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+    %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
+    %script(src="scripts/script.js" )
