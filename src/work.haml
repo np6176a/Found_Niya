@@ -30,122 +30,61 @@
     %nav#nav-mobile
 
     -#------------------------the main body------------------------------
-    -#the tab nav
-    .container.home
+    .container-fluid.home
       .row
         .col-xs-12
-          %ul.nav.nav-tabs#myTab(role="tablist")
-            %li.active(role="presentation")
-              %a(href="#web" role="tab" data-toggle="tab" )
-                %h3 Web Design
-            %li(role="presentation" )
-              %a(href="#graphics" role="tab" data-toggle="tab")
-                %h3 Graphic Design
-            %li(role="presentation" )
-              %a(href="#photo" role="tab" data-toggle="tab")
-                %h3 Photo Editing
-
-          -#the first panel
-          .tab-content
-            .tab-pane.active#web(role="tabpanel")
-              .row.row1
-                .col-md-6
-                  %a(href="https://www.myjuliebees.com/" )
-                    %img(src="images/juliebees/winterwakeup.jpg" )
-                .col-md-6
-                  %a(href="https://www.myjuliebees.com/" )
-                    %h2 Julie Bee's
-                  %p.role Position: Web & Graphic Designer
-                  %p.align1 Julie Bee's is an online shoe store that also hosted various offline events and marketing campaigns. My role was to design and develop the new online store on the Bigcommerce platform. I am now continuing to maintain the site, , while designing graphic materials for their offline activities.
-
-              .row.row1
-                .col-md-6
-                  %a(href="http://www.zebrablinds.com/" )
-                    %h2 Zebrablinds
-                  %p.role Position: Graphic & UX Designer
-                  %p.align2 Zebrablinds is an online window treatment store that allowed customers to customize their window treatment choices. I was hired to inject some UX design into their existing online store and to design the graphics for their promotional material.
-                .col-md-6
-                  %a(href="http://www.zebrablinds.com/" )
-                    %img(src="images/zebra/Cordlesscom.jpg" )
-
-              .row
-                .col-md-6
-                  %a(href="http://www.jdgraphics.com/" )
-                    %img(src="images/JD/jdlavender.jpg" )
-                .col-md-6
-                  %a(href="http://www.jdgraphics.com/" )
-                    %h2 JD Graphics
-                  %p.role
-                    Position: Administrative Assistant,
-                    %br
-                    Web & Graphic Designer
-                  %p.align1 JD Graphics is a print shop that designed, printed and installed large scale graphics for vehicles and buildings. I worked as an Administrative Assistant managing the print shop, as a Graphic Designer creating designs for clients, and as the resident Web Designer building and maintaining the shop website.
-
-            -#the second panel
-            .tab-pane#graphics(role="tabpanel")
-              .row
-                .col-md-12
-                  %a(href="https://www.myjuliebees.com/" )
-                    %h2 Julie Bee's
-                  %p Banners, Event Invites and Newsletters
-
-              .row.row1
-                .col-md-4
-                  %img.graphics.img1(src="images/juliebees/Valentine.gif" )
-                .col-md-4
-                  %img.graphics.img2(src="images/juliebees/invite-4.jpg" )
-                .col-md-4
-                  %img.graphics.img3(src="images/juliebees/invite 3.jpg" )
-
-              .row
-                .col-md-12
-                  %a(href="http://www.zebrablinds.com/" )
-                    %h2 Zebrablinds
-                  %p Logo, Banners and Flyers
-              .row
-                .col-md-6
-                  %img.graphics.img1(src="images/zebra/Flyers1.jpg" )
-                .col-md-6
-                  %img.graphics.img4(src="images/zebra/Flyers2.jpg" )
-
-              -#.row
-              -#  .col-md-offset-2.col-md-8
-              -#    %img.graphics(src="images/zebra/Cordlessca.jpg" )
-
-             -#the third panel
-            .tab-pane#photo(role="tabpanel")
-              .row
-                .col-md-12
-                  %a(href="https://www.myjuliebees.com/" )
-                    %h2 Julie Bee's
-                  %p Before & After Photo Edits
-              .row.row2
-                .col-md-6
-                  %img.img5(src="images/juliebees/val.jpg" )
-                .col-md-6
-                  %img.img6(src="images/juliebees/valentine.jpg" )
-              .row.row1
-                .col-md-6
-                  %img.img5(src="images/juliebees/imageori.jpg" )
-                .col-md-6
-                  %img.img6(src="images/juliebees/image.jpg" )
-
-              .row
-                .col-md-12
-                  %a(href="https://www.myjuliebees.com/" )
-                    %h2 JD Graphics
-                  %p Before & After Photo Edits
-              .row.row2
-                .col-md-6
-                  %img.img5(src="images/JD/IMG_0001.jpg" )
-                .col-md-6
-                  %img.img6(src="images/JD/IMG_0001E.jpg" )
-              .row
-                .col-md-6
-                  %img.img5(src="images/JD/IMG_0001-(1)-2.jpg" )
-                .col-md-6
-                  %img.img6(src="images/JD/IMG_0001-(1)-2E.jpg" )
-
+          %a(href="http://www.simplepart.com") Simple Part
+      .row
+        .col-md-5.col-xs-10.col-xs-offset-1
+          %p
+            Audi, Volkswagon, Subaru...why yes I did build all of their cars. And by "build", I mean help implement the designs for each of their new car parts retail sites. And by "implement", I mean write a significant portion of the HTML, CSS, and JavaScript.
+        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        -# Add the extra clearfix for only the required viewport
+        .clearfix.visible-md-block
+      .row
+        .col-md-3.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        .col-md-4.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        .col-md-3.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+      .row
+        .col-xs-12
+          %a(href="http://www.juliebees.com") Julie Bee's
+      .row
+        .col-md-5.col-xs-10.col-xs-offset-1
+          %p
+            So if you haven't figured it out yet, I'm a girl, which means I'm genetically addicted to shoes. Luckily, I got to design, implement, and maintain Julie Bee's site, a luxury shoe brand. This included designing the majority of their promotional material and implementing custom functionality on top of the BigCommerce platform. And to top it off, Julie is a real person. Who woulda thunk?
+        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        -# Add the extra clearfix for only the required viewport
+        .clearfix.visible-md-block
+      .row
+        .col-md-3.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        .col-md-4.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        .col-md-3.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+      .row
+        .col-xs-12
+          %a(href="http://www.monokaicode.co") Monokai Code Company
+      .row
+        .col-md-5.col-xs-10.col-xs-offset-1
+          %p
+            Nerd + Nerd = Monokai Code Company. I co-founded Monokai alongside my husband as an ode to our love...of technology. We aimed to be an web development firm that brought a sense of elegance and simplicity to the table. As lead designer, I tried to capture that inspiration in our company's website.
+        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        -# Add the extra clearfix for only the required viewport
+        .clearfix.visible-md-block
+      .row
+        .col-md-3.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        .col-md-4.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
+        .col-md-3.col-md-offset-0.col-xs-10.col-xs-offset-1
+          %img(src="http://placehold.it/400x300")
 
     -#---------------------------------the footer: reminder love yourself--------------------
     .container.foot-nav
