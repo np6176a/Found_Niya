@@ -77,6 +77,39 @@ body {
   }
 }
 
+//------------------------------------hello are you there: contact me------------------------
+.contact{
+  text-align: center;
+  margin: 20px 20px 40px;
+
+  .half{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  p{
+    font-family: $body;
+    font-size: 2em;
+  }
+  a{
+    width: 100%;
+    display: block;
+    padding: 50px;
+    &.email{
+      background: url("../images/mail.svg")no-repeat center;
+      &:hover{
+        background: url("../images/mail1.svg")no-repeat center;
+      }
+    }
+    &.git{
+      background: url("../images/git.svg")no-repeat center;
+      &:hover{
+        background: url("../images/git1.svg")no-repeat center;
+      }
+    }
+  }
+}
+
 //---------------------------------------the media queries----------------------------------------
 @media (max-width: 900px) {
   body {
@@ -104,9 +137,16 @@ body {
       margin: 5px 5px 5px 10px;
     }
   }
+  //  ----------------------contact me------
+  .contact{
+    height: 70vh;
+    .half{
+      width: 100%;
+    }
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 850px) {
   //  --------------about me for tablets woohooo
   .about {
     margin: 20px;
@@ -126,6 +166,7 @@ body {
       margin: 10px;
     }
   }
+
 }
 
 @media (max-width: 660px) {

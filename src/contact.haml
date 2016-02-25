@@ -32,25 +32,24 @@
     %nav#nav-mobile
 
     -#------------------------the main body------------------------------
-    .container.home
-      .row
-        .col-xs-6.col-xs-offset-3.contact1
+    .container-fluid.contact
+      .row.half
+        .col-xs-12
           %img.profile(src="images/profile.png" )
-          %p.lead I am accepting new projects and would love to hear about your project. Contact me here for more information or to just talk about your awesome project. If words are about to burst forth and you cannot stand the delay of email, Twoople me.
+          %p.lead I am accepting new projects and would love to hear about your project. Contact me here for more information or to just talk about your awesome project.
+      .row.half
+        .col-xs-12
           .row
             .col-xs-6(role="presentation" )
-              %a(href="mailto:niyamp3@gmail.com" )
-                %img.contact-icon(src="images/mail.svg" )
-                %img.contact-icon.hover(src="images/mail1.svg" )
-            .col-xs-4.col-xs-offset-4(role="presentation" )
-              %a(href="https://github.com/np6176a" )
-                %img.contact-icon(src="images/git.svg" )
-                %img.contact-icon.hover(src="images/git1.svg" )
+              %a.email(href="mailto:niyamp3@gmail.com" )
+            .col-xs-6(role="presentation" )
+              %a.git(href="https://github.com/np6176a" )
     -#---------------------------------the footer: reminder love yourself--------------------
-    .container.foot-nav
+    .container-fluid.foot-nav
       .row
-        .col-md-4.col-md-offset-4.col-sm-12
+        .col-xs-12
           %img(src="images/fn.png" )
+
 
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     %script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
