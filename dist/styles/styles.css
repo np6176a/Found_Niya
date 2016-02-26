@@ -221,6 +221,30 @@ body {
       .contact a.git:hover {
         background: url("../images/git1.svg") no-repeat center; }
 
+.work .title a {
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 2em;
+  color: #333; }
+  .work .title a:hover {
+    text-decoration: none;
+    color: #a35563; }
+.work .subtitle {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  font-size: 1.3em; }
+.work .img-long img {
+  width: 100%; }
+.work .img-short {
+  margin: 10px;
+  padding: 0;
+  height: 245px;
+  text-align: center; }
+  .work .img-short img {
+    width: 100%; }
+  .work .img-short#fall img {
+    height: 100%;
+    width: auto; }
+
 @media (max-width: 900px) {
   body {
     background: #fafafa url("../images/bg.jpg"); }
@@ -250,9 +274,9 @@ body {
     .about .title h2, .about .title .home h1, .home .about .title h1 {
       font-size: 4em; }
     .about .skill img {
-      margin-left: 4%;
-      margin-right: 4%;
-      width: 25.3%; }
+      width: 25%;
+      margin-left: auto;
+      margin-right: auto; }
     .about .para {
       margin: 10px; } }
 @media (max-width: 660px) {

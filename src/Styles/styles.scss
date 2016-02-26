@@ -110,6 +110,46 @@ body {
   }
 }
 
+//------------------------------the work page-------------------------------------------
+.work{
+  .title{
+    a{
+      font-family: $title;
+      font-size: 2em;
+      color: $greyReg;
+      &:hover{
+        text-decoration:none;
+        color:$pink;
+      }
+    }
+  }
+  .subtitle{
+    font-family: $body;
+    font-weight:bold;
+    font-size: 1.3em;
+  }
+  .img-long{
+    img{
+      width: 100%;
+    }
+  }
+  .img-short{
+    margin:10px;
+    padding: 0;
+    height:245px;
+    text-align: center;
+    img{
+      width: 100%;
+    }
+    &#fall{
+      img{
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+}
+
 //---------------------------------------the media queries----------------------------------------
 @media (max-width: 900px) {
   body {
