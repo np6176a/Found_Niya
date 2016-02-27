@@ -199,6 +199,7 @@ body {
       font-weight: bold; }
 
 .contact {
+  background: #fafafa url("../images/bg.jpg");
   text-align: center;
   margin: 20px 20px 40px; }
   .contact .half {
@@ -221,29 +222,31 @@ body {
       .contact a.git:hover {
         background: url("../images/git1.svg") no-repeat center; }
 
-.work .title a {
-  font-family: "Fontdiner Swanky", cursive;
-  font-size: 2em;
-  color: #333; }
-  .work .title a:hover {
-    text-decoration: none;
-    color: #a35563; }
-.work .subtitle {
-  font-family: "Indie Flower", cursive;
-  font-weight: bold;
-  font-size: 1.3em; }
-.work .img-long img {
-  width: 100%; }
-.work .img-short {
-  margin: 10px;
-  padding: 0;
-  height: 245px;
-  text-align: center; }
-  .work .img-short img {
+.work {
+  background: #fafafa url("../images/bg.jpg"); }
+  .work .title {
+    text-align: center; }
+    .work .title a img {
+      width: 30%;
+      opacity: 1; }
+    .work .title a:hover img {
+      opacity: 0.7; }
+  .work .subtitle {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 1.5em; }
+    .work .subtitle p {
+      background: #fafafa;
+      padding: 5px 10px; }
+  .work .img-long img {
     width: 100%; }
-  .work .img-short#fall img {
-    height: 100%;
-    width: auto; }
+  .work .img-short {
+    margin: 0;
+    padding: 0;
+    height: 245px;
+    text-align: center; }
+    .work .img-short img {
+      width: 100%; }
 
 @media (max-width: 900px) {
   body {

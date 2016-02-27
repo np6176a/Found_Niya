@@ -78,74 +78,78 @@ body {
 }
 
 //------------------------------------hello are you there: contact me------------------------
-.contact{
+.contact {
+  background: $bgmain;
   text-align: center;
   margin: 20px 20px 40px;
 
-  .half{
+  .half {
     width: 50%;
     display: block;
     margin: 0 auto;
   }
-  p{
+  p {
     font-family: $body;
     font-size: 2em;
   }
-  a{
+  a {
     width: 100%;
     display: block;
     padding: 50px;
-    &.email{
-      background: url("../images/mail.svg")no-repeat center;
-      &:hover{
-        background: url("../images/mail1.svg")no-repeat center;
+    &.email {
+      background: url("../images/mail.svg") no-repeat center;
+      &:hover {
+        background: url("../images/mail1.svg") no-repeat center;
       }
     }
-    &.git{
-      background: url("../images/git.svg")no-repeat center;
-      &:hover{
-        background: url("../images/git1.svg")no-repeat center;
+    &.git {
+      background: url("../images/git.svg") no-repeat center;
+      &:hover {
+        background: url("../images/git1.svg") no-repeat center;
       }
     }
   }
 }
 
 //------------------------------the work page-------------------------------------------
-.work{
-  .title{
-    a{
-      font-family: $title;
-      font-size: 2em;
-      color: $greyReg;
-      &:hover{
-        text-decoration:none;
-        color:$pink;
-      }
-    }
-  }
-  .subtitle{
-    font-family: $body;
-    font-weight:bold;
-    font-size: 1.3em;
-  }
-  .img-long{
-    img{
-      width: 100%;
-    }
-  }
-  .img-short{
-    margin:10px;
-    padding: 0;
-    height:245px;
+.work {
+  background: $bgmain;
+  .title {
     text-align: center;
-    img{
+    a {
+      img{
+        width: 30%;
+        opacity: 1;
+      }
+      &:hover{
+        img{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  .subtitle {
+    font-family: $body;
+    font-weight: bold;
+    font-size: 1.5em;
+    p{
+      background: #fafafa;
+      padding: 5px 10px;
+    }
+
+  }
+  .img-long {
+    img {
       width: 100%;
     }
-    &#fall{
-      img{
-        height: 100%;
-        width: auto;
-      }
+  }
+  .img-short {
+    margin: 0;
+    padding: 0;
+    height: 245px;
+    text-align: center;
+    img {
+      width: 100%;
     }
   }
 }
@@ -178,9 +182,9 @@ body {
     }
   }
   //  ----------------------contact me------
-  .contact{
+  .contact {
     height: 70vh;
-    .half{
+    .half {
       width: 100%;
     }
   }
@@ -226,8 +230,8 @@ body {
     }
 
   }
-//  --------------------about moi
-  .about{
+  //  --------------------about moi
+  .about {
     .creditTitle {
       h4 {
         font-size: 1.5em;

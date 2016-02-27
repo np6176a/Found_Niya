@@ -31,34 +31,37 @@
 
     -#------------------------the main body------------------------------
     .container-fluid.work
+      -#-------------------------simple-----------------------------------
       .row
-        .col-xs-12
-          %a(href="http://www.simplepart.com") Simple Part
+        .col-xs-12.title.simple
+          %h2
+            %a(href="http://www.simplepart.com")
+              %img(src="images/simple/title.jpg" )
       .row
-        .col-md-5.col-xs-10.col-xs-offset-1
+        .col-md-5.col-xs-10.col-xs-offset-1.simple.subtitle
           %p
             Audi, Volkswagon, Subaru...why yes I did build all of their cars. And by "build", I mean help implement the designs for each of their new car parts retail sites. And by "implement", I mean write a significant portion of the HTML, CSS, and JavaScript.
-        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
+          .row
+            .col-md-6.col-xs-10.col-xs-offset-1.img-short
+              %img(src="images/simple/audi.jpg")
+            .col-md-6.col-md-offset-0.col-xs-10.col-xs-offset-1.img-short
+              %img(src="images/simple/lexus.jpg")
+        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1.img-long
+          %img(src="images/simple/web.jpg")
         -# Add the extra clearfix for only the required viewport
         .clearfix.visible-md-block
+      -#-------------------------julie------------------------------------
       .row
-        .col-md-3.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
-        .col-md-4.col-md-offset-0.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
-        .col-md-3.col-md-offset-0.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
-      .row
-        .col-xs-12.title
+        .col-xs-12.title.julie
           %h2
-            %a(href="https://www.myjuliebees.com/")Julie Bee's
+            %a(href="https://www.myjuliebees.com/")
+              %img(src="images/julie/title.svg" )
       .row
         .col-md-6.col-xs-10.col-xs-offset-1.julie.subtitle
           %p
             So if you haven't figured it out yet, I'm a girl, which means I'm genetically addicted to shoes. Luckily, I got to design, implement, and maintain Julie Bee's site, a luxury shoe brand. This included designing the majority of their promotional material and implementing custom functionality on top of the BigCommerce platform. And to top it off, Julie is a real person. Who woulda thunk?
           .row
-            .col-md-6.col-xs-10.col-xs-offset-1.img-short#fall
+            .col-md-5.col-xs-10.col-xs-offset-1.img-short
               %img(src="images/julie/fall.jpg")
             .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1.img-short
               %img(src="images/julie/atlantaflat.gif")
@@ -66,25 +69,30 @@
           %img(src="images/julie/screen.jpg")
         -# Add the extra clearfix for only the required viewport
         .clearfix.visible-md-block
-      .
+      -#----------------------------monokai---------------------------------
       .row
-        .col-xs-12
-          %a(href="http://www.monokaicode.co") Monokai Code Company
+        .col-xs-12.title.monokai
+          %h2
+            %a(href="http://www.monokaicode.co")
+              %img(src="images/monokai/title.svg")
       .row
-        .col-md-5.col-xs-10.col-xs-offset-1
+        .col-md-5.col-xs-10.col-xs-offset-1.subtitle.monokai
           %p
             Nerd + Nerd = Monokai Code Company. I co-founded Monokai alongside my husband as an ode to our love...of technology. We aimed to be an web development firm that brought a sense of elegance and simplicity to the table. As lead designer, I tried to capture that inspiration in our company's website.
-        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
+          .row
+            .col-md-6.col-xs-10.col-xs-offset-1.img-short
+              %img(src="images/monokai/card.svg")
+            .col-md-6.col-md-offset-0.col-xs-10.col-xs-offset-1.img-short
+              %img(src="images/monokai/card1.svg")
+          .row.space
+            .col-md-6.col-xs-10.col-xs-offset-1.img-short
+              %img(src="images/monokai/penny.svg")
+            .col-md-6.col-md-offset-0.col-xs-10.col-xs-offset-1.img-short
+              %img(src="images/monokai/coffee.svg")
+        .col-md-5.col-md-offset-0.col-xs-10.col-xs-offset-1.img-long
+          %img(src="images/monokai/screen.jpg")
         -# Add the extra clearfix for only the required viewport
         .clearfix.visible-md-block
-      .row
-        .col-md-3.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
-        .col-md-4.col-md-offset-0.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
-        .col-md-3.col-md-offset-0.col-xs-10.col-xs-offset-1
-          %img(src="http://placehold.it/400x300")
 
     -#---------------------------------the footer: reminder love yourself--------------------
     .container.foot-nav
