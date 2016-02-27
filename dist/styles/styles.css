@@ -117,7 +117,7 @@ nav#nav-mobile {
 
 /* =Media Queries
 -------------------------------------------------------------- */
-@media all and (max-width: 900px) {
+@media all and (max-width: 990px) {
   #nav-trigger {
     display: block; }
 
@@ -203,9 +203,11 @@ body {
   text-align: center;
   margin: 20px 20px 40px; }
   .contact .half {
-    width: 50%;
+    width: 55%;
     display: block;
     margin: 0 auto; }
+    .contact .half .profile {
+      width: 40%; }
   .contact p {
     font-family: "Indie Flower", cursive;
     font-size: 2em; }
@@ -252,7 +254,7 @@ body {
   .work .tab {
     margin: 20px 0; }
 
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   body {
     background: #fafafa url("../images/bg.jpg"); }
 
@@ -274,7 +276,14 @@ body {
   .contact {
     height: 70vh; }
     .contact .half {
-      width: 100%; } }
+      width: 100%; }
+
+  .work .title a img {
+    width: 60%; }
+  .work .img-short {
+    height: auto; }
+    .work .img-short img {
+      width: 60%; } }
 @media (max-width: 850px) {
   .about {
     margin: 20px; }

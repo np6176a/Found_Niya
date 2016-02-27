@@ -82,11 +82,13 @@ body {
   background: $bgmain;
   text-align: center;
   margin: 20px 20px 40px;
-
   .half {
-    width: 50%;
+    width: 55%;
     display: block;
     margin: 0 auto;
+    .profile{
+      width: 40%;
+    }
   }
   p {
     font-family: $body;
@@ -161,7 +163,7 @@ body {
 }
 
 //---------------------------------------the media queries----------------------------------------
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   body {
     background: $bgmain;
   }
@@ -192,6 +194,22 @@ body {
     height: 70vh;
     .half {
       width: 100%;
+    }
+  }
+//  -----------------------------work page---------------------
+  .work{
+    .title{
+      a{
+        img{
+          width: 60%;
+        }
+      }
+    }
+    .img-short{
+      height:auto;
+      img{
+        width: 60%;
+      }
     }
   }
 }
