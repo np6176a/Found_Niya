@@ -247,6 +247,10 @@ body {
     text-align: center; }
     .work .img-short img {
       width: 100%; }
+  .work .space {
+    margin: 70px 0; }
+  .work .tab {
+    margin: 20px 0; }
 
 @media (max-width: 900px) {
   body {
