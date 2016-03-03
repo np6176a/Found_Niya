@@ -8,27 +8,26 @@
     -#--------------------------------------the navigation of all things----------------
     %nav#nav-main.container-fluid
       %ul.row
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12#home
+          %a#index(href="index.html")
+            Home
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#coffee(href="work.html")
             Work
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#glass(href="about.html")
             About
-        %li.col-md-4
+        %li.col-md-4.col-sm-4.col-xs-12.logo
           %a.brand(href="index.html")
-        -#%img(src="images/header.png" )
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#book(href="http://blog.findniya.com")
             Blog
-        %li.col-md-2
+        %li.col-md-2.col-sm-2.col-xs-12
           %a#call(href="contact.html")
             Contact
     #nav-trigger
       %span
-        %i.material-icons.toggle
-          menu
     %nav#nav-mobile
-
     -#------------------------the main body------------------------------
     .container-fluid.work
       -#-------------------------simple-----------------------------------

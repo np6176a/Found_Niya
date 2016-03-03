@@ -7,9 +7,11 @@ $(document).ready(function(){
         if ($("nav#nav-mobile ul").hasClass("expanded")) {
             $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
             $(this).removeClass("open");
+            $("#nav-trigger").removeClass("back");
         } else {
             $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
             $(this).addClass("open");
+            $("#nav-trigger").addClass("back");
         }
     });
 });
