@@ -129,15 +129,42 @@ nav#nav-mobile {
 
 /* =Media Queries
 -------------------------------------------------------------- */
-@media only screen and (max-device-width: 990px) {
+@media (max-width: 990px) {
   #nav-trigger {
     display: block; }
+    #nav-trigger span {
+      padding: 5em; }
 
   nav#nav-main {
     display: none; }
 
   nav#nav-mobile {
-    display: block; } }
+    display: block; }
+    nav#nav-mobile ul {
+      width: 35%; }
+      nav#nav-mobile ul li a {
+        font-size: 3em; } }
+@media (max-width: 760px) {
+  nav#nav-mobile ul {
+    width: 50%; }
+    nav#nav-mobile ul li a {
+      font-size: 3em; } }
+@media (max-width: 490px) {
+  nav#nav-mobile ul {
+    width: 70%; } }
+@media only screen and (max-device-width: 990px) {
+  #nav-trigger {
+    display: block; }
+    #nav-trigger span {
+      padding: 7em; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+    nav#nav-mobile ul li a {
+      font-size: 5em; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   nav#nav-mobile ul {
     width: 35%; } }
@@ -272,6 +299,85 @@ body {
   .work .tab {
     margin: 20px 0; }
 
+@media (max-width: 990px) {
+  body {
+    background: #fafafa url("../images/bg.jpg"); }
+
+  .home {
+    height: 70vh; }
+    .home h2, .home h1 {
+      line-height: 2em;
+      font-size: 7em; }
+    .home h1 {
+      font-size: 7em;
+      line-height: 2.5em; }
+    .home h3 {
+      font-size: 5em;
+      line-height: 1em; }
+
+  .about .para {
+    margin: 5px 5px 5px 10px; }
+
+  .contact {
+    height: 70vh; }
+    .contact .half {
+      width: 100%; }
+
+  .work .title a img {
+    width: 60%; }
+  .work .subtitle {
+    font-size: 3em; }
+  .work .img-short {
+    height: auto; }
+    .work .img-short img {
+      width: 90%; }
+
+  .about {
+    margin: 20px; }
+    .about .title h2, .about .title .home h1, .home .about .title h1 {
+      font-size: 4em; }
+    .about .skill {
+      text-align: center; }
+      .about .skill img {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto; }
+    .about .para {
+      margin: 10em 10px 10px 10px; }
+      .about .para p {
+        font-size: 2em; }
+
+  .contact .half .profile {
+    width: 50%; }
+  .contact p {
+    font-family: "Indie Flower", cursive;
+    font-size: 3em; }
+  .contact a {
+    padding: 10em; }
+
+  .foot-nav {
+    background: none; } }
+@media (max-width: 850px) {
+  .about {
+    margin: 20px; }
+    .about .title h2, .about .title .home h1, .home .about .title h1 {
+      font-size: 4em; }
+    .about .skill img {
+      width: 25%;
+      margin-left: auto;
+      margin-right: auto; }
+    .about .para {
+      margin: 10px; } }
+@media (max-width: 660px) {
+  .home h1 {
+    font-size: 4em; } }
+@media (max-width: 540px) {
+  .home h2, .home h1 {
+    line-height: 1.5em;
+    font-size: 5em; }
+
+  .about .creditTitle h4 {
+    font-size: 1.5em; } }
 @media only screen and (max-device-width: 768px) {
   body {
     background: #fafafa url("../images/bg.jpg"); }
@@ -299,7 +405,7 @@ body {
   .work .title a img {
     width: 60%; }
   .work .subtitle {
-    font-size: 2.5em; }
+    font-size: 3em; }
   .work .img-short {
     height: auto; }
     .work .img-short img {
@@ -318,4 +424,15 @@ body {
     .about .para {
       margin: 10em 10px 10px 10px; }
       .about .para p {
-        font-size: 2em; } }
+        font-size: 2em; }
+
+  .contact .half .profile {
+    width: 50%; }
+  .contact p {
+    font-family: "Indie Flower", cursive;
+    font-size: 3em; }
+  .contact a {
+    padding: 10em; }
+
+  .foot-nav {
+    background: none; } }

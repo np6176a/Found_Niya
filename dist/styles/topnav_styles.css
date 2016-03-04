@@ -9,7 +9,7 @@ Error: Undefined variable: "$bgnav".
 5:   background: $bgnav;
 6:   position: relative;
 7:   z-index: 2;
-8:   &.back{
+8:   &.back {
 9:     background: #fafafa;
 10:   }
 
@@ -65,4 +65,4 @@ src/styles/topnav_styles.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bgnav\".\A         on line 5 of src/styles/topnav_styles.scss\A \A 1: //the mobile button\A 2: #nav-trigger {\A 3:   display: none;\A 4:   text-align: right;\A 5:   background: $bgnav;\A 6:   position: relative;\A 7:   z-index: 2;\A 8:   &.back{\A 9:     background: #fafafa;\A 10:   }"; }
+  content: "Error: Undefined variable: \"$bgnav\".\A         on line 5 of src/styles/topnav_styles.scss\A \A 1: //the mobile button\A 2: #nav-trigger {\A 3:   display: none;\A 4:   text-align: right;\A 5:   background: $bgnav;\A 6:   position: relative;\A 7:   z-index: 2;\A 8:   &.back {\A 9:     background: #fafafa;\A 10:   }"; }

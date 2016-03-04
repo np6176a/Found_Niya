@@ -2,8 +2,8 @@
 Error: Undefined variable: "$bgmain".
         on line 4 of src/styles/media.scss
 
-1: //---------------------------------------the media queries----------------------------------------
-2: @media only screen and (max-device-width: 768px) {
+1: //----------------media queries for idiots who minimizes the browser
+2: @media  (max-width: 990px) {
 3:   body {
 4:     background: $bgmain;
 5:   }
@@ -78,4 +78,4 @@ src/styles/media.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bgmain\".\A         on line 4 of src/styles/media.scss\A \A 1: //---------------------------------------the media queries----------------------------------------\A 2: @media only screen and (max-device-width: 768px) {\A 3:   body {\A 4:     background: $bgmain;\A 5:   }\A 6:   //--------------------the home page bitches------------\A 7:   .home {\A 8:     height: 70vh;\A 9:     h2 {"; }
+  content: "Error: Undefined variable: \"$bgmain\".\A         on line 4 of src/styles/media.scss\A \A 1: //----------------media queries for idiots who minimizes the browser\A 2: @media  (max-width: 990px) {\A 3:   body {\A 4:     background: $bgmain;\A 5:   }\A 6:   //--------------------the home page bitches------------\A 7:   .home {\A 8:     height: 70vh;\A 9:     h2 {"; }
