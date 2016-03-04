@@ -9,7 +9,7 @@
     background: #fafafa; }
   #nav-trigger span {
     display: inline-block;
-    padding: 40px;
+    padding: 7em;
     background: url("../images/menu.svg") no-repeat center;
     color: white;
     cursor: pointer;
@@ -105,8 +105,8 @@ nav#nav-mobile {
       nav#nav-mobile ul li a {
         display: block;
         color: #333;
-        padding: 10px 30px;
-        font-size: 2em;
+        padding: .5em .5em .5em 1em;
+        font-size: 5em;
         font-family: "Indie Flower", cursive; }
         nav#nav-mobile ul li a:hover {
           background-color: #fabe96; }
@@ -129,7 +129,7 @@ nav#nav-mobile {
 
 /* =Media Queries
 -------------------------------------------------------------- */
-@media all and (max-width: 990px) {
+@media only screen and (max-device-width: 990px) {
   #nav-trigger {
     display: block; }
 
@@ -138,13 +138,10 @@ nav#nav-mobile {
 
   nav#nav-mobile {
     display: block; } }
-@media (max-width: 800px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   nav#nav-mobile ul {
     width: 35%; } }
-@media (max-width: 600px) {
-  nav#nav-mobile ul {
-    width: 50%; } }
-@media (max-width: 450px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   nav#nav-mobile ul {
     width: 60%; } }
 .foot-nav {
@@ -275,7 +272,7 @@ body {
   .work .tab {
     margin: 20px 0; }
 
-@media (max-width: 991px) {
+@media only screen and (max-device-width: 768px) {
   body {
     background: #fafafa url("../images/bg.jpg"); }
 
@@ -285,11 +282,11 @@ body {
       line-height: 2em;
       font-size: 7em; }
     .home h1 {
-      font-size: 5em;
-      line-height: 2em; }
+      font-size: 7em;
+      line-height: 2.5em; }
     .home h3 {
-      font-size: 2em;
-      line-height: 3em; }
+      font-size: 5em;
+      line-height: 1em; }
 
   .about .para {
     margin: 5px 5px 5px 10px; }
@@ -301,28 +298,24 @@ body {
 
   .work .title a img {
     width: 60%; }
+  .work .subtitle {
+    font-size: 2.5em; }
   .work .img-short {
     height: auto; }
     .work .img-short img {
-      width: 60%; } }
-@media (max-width: 850px) {
+      width: 90%; }
+
   .about {
     margin: 20px; }
     .about .title h2, .about .title .home h1, .home .about .title h1 {
       font-size: 4em; }
-    .about .skill img {
-      width: 25%;
-      margin-left: auto;
-      margin-right: auto; }
+    .about .skill {
+      text-align: center; }
+      .about .skill img {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto; }
     .about .para {
-      margin: 10px; } }
-@media (max-width: 660px) {
-  .home h1 {
-    font-size: 4em; } }
-@media (max-width: 540px) {
-  .home h2, .home h1 {
-    line-height: 1.5em;
-    font-size: 5em; }
-
-  .about .creditTitle h4 {
-    font-size: 1.5em; } }
+      margin: 10em 10px 10px 10px; }
+      .about .para p {
+        font-size: 2em; } }
