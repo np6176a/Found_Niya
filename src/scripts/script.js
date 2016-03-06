@@ -14,4 +14,13 @@ $(document).ready(function(){
             $("#nav-trigger").addClass("back");
         }
     });
+
+    $('.fancybox').fancybox({
+        padding: 0,
+        openEffect: 'elastic',
+        fitToView: true,
+        closeBtn: false,
+        aspectRatio: true,
+        minHeight: "60%"
+    });
 });
